@@ -1,0 +1,276 @@
+{
+  "success":true, "value":{
+    "user_id":19577, "current_map":"eternal", "maps":[
+      {
+        "map_id":"eternal", "chapter":1, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"core", "require_type":"pack", "require_value":1, "coordinate":"-500,0", "step_count":66, "stamina_cost":2, "custom_bg":"", "is_available":true, "curr_position":0, "curr_capture":9.375526812231, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":10
+          },
+          {
+            "position":1, "__v":0, "capture":10
+          },
+          {
+            "position":2, "__v":0, "capture":10
+          },
+          {
+            "position":3, "__v":0, "capture":10
+          },
+          {
+            "position":4, "__v":0, "capture":10
+          },
+          {
+            "position":5, "__v":0, "capture":10, "items":[
+              {
+                "id":100, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":6, "__v":0, "capture":10
+          },
+          {
+            "position":7, "__v":0, "capture":10
+          },
+          {
+            "position":8, "__v":0, "capture":10
+          },
+          {
+            "position":9, "__v":0, "capture":10
+          },
+          {
+            "position":10, "__v":0, "capture":10, "items":[
+              {
+                "id":100, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":11, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
+          },
+          {
+            "position":12, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
+          },
+          {
+            "position":13, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
+          },
+          {
+            "position":14, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
+          },
+          {
+            "position":15, "__v":0, "capture":10, "items":[
+              {
+                "id":"essenceoftwilight", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":16, "__v":0, "capture":10
+          },
+          {
+            "position":17, "__v":0, "capture":10
+          },
+          {
+            "position":18, "__v":0, "capture":10
+          },
+          {
+            "position":19, "__v":0, "capture":10
+          },
+          {
+            "position":20, "__v":0, "capture":10
+          },
+          {
+            "position":21, "__v":0, "capture":10
+          },
+          {
+            "position":22, "__v":0, "capture":10, "restrict_id":"viyella", "restrict_type":"song_id"
+          },
+          {
+            "position":23, "__v":0, "capture":10, "restrict_id":"hearditsaid", "restrict_type":"song_id"
+          },
+          {
+            "position":24, "__v":0, "capture":10, "restrict_id":"memoryfactory", "restrict_type":"song_id"
+          },
+          {
+            "position":25, "__v":0, "capture":10, "restrict_id":"relentless", "restrict_type":"song_id"
+          },
+          {
+            "position":26, "__v":0, "capture":10, "restrict_id":"lumia", "restrict_type":"song_id"
+          },
+          {
+            "position":27, "__v":0, "capture":10, "restrict_id":"essenceoftwilight", "restrict_type":"song_id"
+          },
+          {
+            "position":28, "__v":0, "capture":10, "items":[
+              {
+                "id":100, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":29, "__v":0, "capture":10, "restrict_id":"viyella", "restrict_type":"song_id"
+          },
+          {
+            "position":30, "__v":0, "capture":10, "restrict_id":"hearditsaid", "restrict_type":"song_id"
+          },
+          {
+            "position":31, "__v":0, "capture":10, "restrict_id":"memoryfactory", "restrict_type":"song_id"
+          },
+          {
+            "position":32, "__v":0, "capture":10, "restrict_id":"relentless", "restrict_type":"song_id"
+          },
+          {
+            "position":33, "__v":0, "capture":10, "restrict_id":"lumia", "restrict_type":"song_id"
+          },
+          {
+            "position":34, "__v":0, "capture":10, "restrict_id":"essenceoftwilight", "restrict_type":"song_id"
+          },
+          {
+            "position":35, "__v":0, "capture":10, "items":[
+              {
+                "id":200, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":36, "__v":0, "capture":10
+          },
+          {
+            "position":37, "__v":0, "capture":10
+          },
+          {
+            "position":38, "__v":0, "capture":10
+          },
+          {
+            "position":39, "__v":0, "capture":10
+          },
+          {
+            "position":40, "__v":0, "capture":10
+          },
+          {
+            "position":41, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
+          },
+          {
+            "position":42, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":43, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
+          },
+          {
+            "position":44, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":45, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
+          },
+          {
+            "position":46, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":47, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
+          },
+          {
+            "position":48, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":49, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
+          },
+          {
+            "position":50, "__v":0, "capture":10, "items":[
+              {
+                "id":"pragmatism", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":51, "__v":0, "capture":10, "restrict_id":"viyella", "restrict_type":"song_id"
+          },
+          {
+            "position":52, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":53, "__v":0, "capture":10, "restrict_id":"hearditsaid", "restrict_type":"song_id"
+          },
+          {
+            "position":54, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":55, "__v":0, "capture":10, "restrict_id":"memoryfactory", "restrict_type":"song_id"
+          },
+          {
+            "position":56, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":57, "__v":0, "capture":10, "restrict_id":"relentless", "restrict_type":"song_id"
+          },
+          {
+            "position":58, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":59, "__v":0, "capture":10, "restrict_id":"lumia", "restrict_type":"song_id"
+          },
+          {
+            "position":60, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":61, "__v":0, "capture":10, "restrict_id":"essenceoftwilight", "restrict_type":"song_id"
+          },
+          {
+            "position":62, "__v":0, "capture":10, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":63, "__v":0, "capture":10, "restrict_id":"pragmatism", "restrict_type":"song_id"
+          },
+          {
+            "position":64, "__v":0, "capture":10, "restrict_id":"pragmatism", "restrict_type":"song_id"
+          },
+          {
+            "position":65, "__v":0, "capture":0, "items":[
+              {
+                "id":"sheriruth", "type":"world_song"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
