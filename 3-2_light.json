@@ -1,0 +1,124 @@
+{
+  "success":true, "value":{
+    "user_id":324036, "current_map":"chapter3_light", "maps":[
+      {
+        "map_id":"chapter3_light", "is_legacy":false, "chapter":3, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"480,-140", "step_count":31, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":11
+          },
+          {
+            "position":1, "__v":0, "capture":11
+          },
+          {
+            "position":2, "__v":0, "capture":11
+          },
+          {
+            "position":3, "__v":0, "capture":11
+          },
+          {
+            "position":4, "__v":0, "capture":11, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":5, "__v":0, "capture":11, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":6, "__v":0, "capture":11
+          },
+          {
+            "position":7, "__v":0, "capture":11
+          },
+          {
+            "position":8, "__v":0, "capture":11
+          },
+          {
+            "position":9, "__v":0, "capture":11, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":10, "__v":0, "capture":12, "items":[
+              {
+                "id":144, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":11, "__v":0, "capture":12
+          },
+          {
+            "position":12, "__v":0, "capture":12
+          },
+          {
+            "position":13, "__v":0, "capture":12
+          },
+          {
+            "position":14, "__v":0, "capture":12, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":15, "__v":0, "capture":12, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":16, "__v":0, "capture":12
+          },
+          {
+            "position":17, "__v":0, "capture":12
+          },
+          {
+            "position":18, "__v":0, "capture":12
+          },
+          {
+            "position":19, "__v":0, "capture":12, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":20, "__v":0, "capture":13, "items":[
+              {
+                "id":169, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":21, "__v":0, "capture":13
+          },
+          {
+            "position":22, "__v":0, "capture":13
+          },
+          {
+            "position":23, "__v":0, "capture":13
+          },
+          {
+            "position":24, "__v":0, "capture":13, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":25, "__v":0, "capture":13, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":26, "__v":0, "capture":13
+          },
+          {
+            "position":27, "__v":0, "capture":13
+          },
+          {
+            "position":28, "__v":0, "capture":13
+          },
+          {
+            "position":29, "__v":0, "capture":13, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":30, "__v":0, "capture":0, "items":[
+              {
+                "id":"suomi", "type":"world_song"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

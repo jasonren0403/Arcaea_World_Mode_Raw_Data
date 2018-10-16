@@ -1,0 +1,267 @@
+{
+  "success":true, "value":{
+    "user_id":324036, "current_map":"chapter3_conflict", "maps":[
+      {
+        "map_id":"chapter3_conflict", "is_legacy":false, "chapter":3, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"-480,-140", "step_count":63, "custom_bg":"", "stamina_cost":2, "curr_position":49, "curr_capture":0, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":10
+          },
+          {
+            "position":1, "__v":0, "capture":10
+          },
+          {
+            "position":2, "__v":0, "capture":10
+          },
+          {
+            "position":3, "__v":0, "capture":10
+          },
+          {
+            "position":4, "__v":0, "capture":10, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":5, "__v":0, "capture":1, "items":[
+              {
+                "id":50, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":6, "__v":0, "capture":1
+          },
+          {
+            "position":7, "__v":0, "capture":1, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":8, "__v":0, "capture":1, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":9, "__v":0, "capture":1
+          },
+          {
+            "position":10, "__v":0, "capture":20, "items":[
+              {
+                "id":10, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":11, "__v":0, "capture":20
+          },
+          {
+            "position":12, "__v":0, "capture":20
+          },
+          {
+            "position":13, "__v":0, "capture":20
+          },
+          {
+            "position":14, "__v":0, "capture":20, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":15, "__v":0, "capture":2, "items":[
+              {
+                "id":100, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":16, "__v":0, "capture":2
+          },
+          {
+            "position":17, "__v":0, "capture":2, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":18, "__v":0, "capture":2, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":19, "__v":0, "capture":2
+          },
+          {
+            "position":20, "__v":0, "capture":30, "items":[
+              {
+                "id":15, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":21, "__v":0, "capture":30
+          },
+          {
+            "position":22, "__v":0, "capture":30
+          },
+          {
+            "position":23, "__v":0, "capture":30
+          },
+          {
+            "position":24, "__v":0, "capture":30, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":25, "__v":0, "capture":3, "items":[
+              {
+                "id":150, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":26, "__v":0, "capture":3
+          },
+          {
+            "position":27, "__v":0, "capture":3, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":28, "__v":0, "capture":3, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":29, "__v":0, "capture":3
+          },
+          {
+            "position":30, "__v":0, "capture":40, "items":[
+              {
+                "id":"bookmaker", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":31, "__v":0, "capture":40
+          },
+          {
+            "position":32, "__v":0, "capture":40
+          },
+          {
+            "position":33, "__v":0, "capture":40
+          },
+          {
+            "position":34, "__v":0, "capture":40, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":35, "__v":0, "capture":4, "items":[
+              {
+                "id":200, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":36, "__v":0, "capture":4
+          },
+          {
+            "position":37, "__v":0, "capture":4, "restrict_id":"bookmaker", "restrict_type":"song_id"
+          },
+          {
+            "position":38, "__v":0, "capture":4, "restrict_id":"bookmaker", "restrict_type":"song_id"
+          },
+          {
+            "position":39, "__v":0, "capture":4
+          },
+          {
+            "position":40, "__v":0, "capture":50, "items":[
+              {
+                "id":25, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":41, "__v":0, "capture":50
+          },
+          {
+            "position":42, "__v":0, "capture":50
+          },
+          {
+            "position":43, "__v":0, "capture":50
+          },
+          {
+            "position":44, "__v":0, "capture":50, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":45, "__v":0, "capture":5, "items":[
+              {
+                "id":250, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":46, "__v":0, "capture":5
+          },
+          {
+            "position":47, "__v":0, "capture":5, "restrict_id":"bookmaker", "restrict_type":"song_id"
+          },
+          {
+            "position":48, "__v":0, "capture":5, "restrict_id":"bookmaker", "restrict_type":"song_id"
+          },
+          {
+            "position":49, "__v":0, "capture":5, "items":[
+              {
+                "id":"darakunosono", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":50, "__v":0, "capture":60, "items":[
+              {
+                "id":30, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":51, "__v":0, "capture":60
+          },
+          {
+            "position":52, "__v":0, "capture":60
+          },
+          {
+            "position":53, "__v":0, "capture":60
+          },
+          {
+            "position":54, "__v":0, "capture":60, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":55, "__v":0, "capture":6, "items":[
+              {
+                "id":300, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":56, "__v":0, "capture":6
+          },
+          {
+            "position":57, "__v":0, "capture":6, "restrict_id":"darakunosono", "restrict_type":"song_id"
+          },
+          {
+            "position":58, "__v":0, "capture":6, "restrict_id":"darakunosono", "restrict_type":"song_id"
+          },
+          {
+            "position":59, "__v":0, "capture":6
+          },
+          {
+            "position":60, "__v":0, "capture":70, "items":[
+              {
+                "id":40, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":61, "__v":0, "capture":70
+          },
+          {
+            "position":62, "__v":0, "capture":0, "items":[
+              {
+                "id":"espebranch", "type":"world_song"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

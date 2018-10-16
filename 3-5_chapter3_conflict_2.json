@@ -1,0 +1,185 @@
+{
+  "success":true, "value":{
+    "user_id":324036, "current_map":"chapter3_conflict_2", "maps":[
+      {
+        "map_id":"chapter3_conflict_2", "is_legacy":false, "chapter":3, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"-240,-200", "step_count":41, "custom_bg":"", "stamina_cost":2, "curr_position":8, "curr_capture":2.6367582520405, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":10
+          },
+          {
+            "position":1, "__v":0, "capture":10, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":2, "__v":0, "capture":10
+          },
+          {
+            "position":3, "__v":0, "capture":10, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":4, "__v":0, "capture":10
+          },
+          {
+            "position":5, "__v":0, "capture":10, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":6, "__v":0, "capture":10
+          },
+          {
+            "position":7, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":8, "__v":0, "capture":10
+          },
+          {
+            "position":9, "__v":0, "capture":10, "items":[
+              {
+                "id":125, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":10, "__v":0, "capture":10
+          },
+          {
+            "position":11, "__v":0, "capture":10, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":12, "__v":0, "capture":10
+          },
+          {
+            "position":13, "__v":0, "capture":10, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":14, "__v":0, "capture":10
+          },
+          {
+            "position":15, "__v":0, "capture":10, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":16, "__v":0, "capture":10
+          },
+          {
+            "position":17, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":18, "__v":0, "capture":10
+          },
+          {
+            "position":19, "__v":0, "capture":10, "items":[
+              {
+                "id":125, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":20, "__v":0, "capture":10
+          },
+          {
+            "position":21, "__v":0, "capture":10, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":22, "__v":0, "capture":10
+          },
+          {
+            "position":23, "__v":0, "capture":10, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":24, "__v":0, "capture":10
+          },
+          {
+            "position":25, "__v":0, "capture":10, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":26, "__v":0, "capture":10
+          },
+          {
+            "position":27, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":28, "__v":0, "capture":10
+          },
+          {
+            "position":29, "__v":0, "capture":10, "items":[
+              {
+                "id":125, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":30, "__v":0, "capture":10
+          },
+          {
+            "position":31, "__v":0, "capture":10, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":32, "__v":0, "capture":10
+          },
+          {
+            "position":33, "__v":0, "capture":10, "restrict_id":"base", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":34, "__v":0, "capture":10
+          },
+          {
+            "position":35, "__v":0, "capture":10, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":36, "__v":0, "capture":10
+          },
+          {
+            "position":37, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":38, "__v":0, "capture":10
+          },
+          {
+            "position":39, "__v":0, "capture":10, "items":[
+              {
+                "id":125, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":40, "__v":0, "capture":0, "items":[
+              {
+                "id":"nhelv", "type":"world_song"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
