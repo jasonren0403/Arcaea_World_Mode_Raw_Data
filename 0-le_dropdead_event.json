@@ -1,0 +1,440 @@
+{
+  "success":true, "value":{
+    "user_id":324036, "current_map":"dropdead_event", "maps":[
+      {
+        "map_id":"dropdead_event", "is_legacy":false, "chapter":0, "is_available":true, "available_from":1534118400000, "available_to":1534777140000, "is_repeatable":false, "require_id":"dropdead", "require_type":"single", "stamina_cost":1, "coordinate":"-350,-120", "step_count":86, "custom_bg":"", "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":15
+          },
+          {
+            "position":1, "__v":0, "capture":8
+          },
+          {
+            "position":2, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":3, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":4, "__v":0, "capture":8
+          },
+          {
+            "position":5, "__v":0, "capture":15
+          },
+          {
+            "position":6, "__v":0, "capture":1, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":7, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":8, "__v":0, "capture":1, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":9, "__v":0, "capture":1
+          },
+          {
+            "position":10, "__v":0, "capture":15
+          },
+          {
+            "position":11, "__v":0, "capture":8, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":12, "__v":0, "capture":8, "restrict_id":"dement", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":13, "__v":0, "capture":8, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":14, "__v":0, "capture":8, "restrict_id":"dement", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":15, "__v":0, "capture":15
+          },
+          {
+            "position":16, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":17, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":18, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":19, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":20, "__v":0, "capture":15
+          },
+          {
+            "position":21, "__v":0, "capture":8, "restrict_id":"chronostasis", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":22, "__v":0, "capture":8, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":23, "__v":0, "capture":8, "restrict_id":"chronostasis", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":24, "__v":0, "capture":8, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":25, "__v":0, "capture":15
+          },
+          {
+            "position":26, "__v":0, "capture":1
+          },
+          {
+            "position":27, "__v":0, "capture":1, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":28, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":29, "__v":0, "capture":1, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":30, "__v":0, "capture":15
+          },
+          {
+            "position":31, "__v":0, "capture":8
+          },
+          {
+            "position":32, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":33, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":34, "__v":0, "capture":8
+          },
+          {
+            "position":35, "__v":0, "capture":15
+          },
+          {
+            "position":36, "__v":0, "capture":8, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":30
+          },
+          {
+            "position":37, "__v":0, "capture":8, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":30
+          },
+          {
+            "position":38, "__v":0, "capture":8, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":30
+          },
+          {
+            "position":39, "__v":0, "capture":8, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":30
+          },
+          {
+            "position":40, "__v":0, "capture":15, "items":[
+              {
+                "id":500, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":41, "__v":0, "capture":8
+          },
+          {
+            "position":42, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":43, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":44, "__v":0, "capture":8
+          },
+          {
+            "position":45, "__v":0, "capture":15
+          },
+          {
+            "position":46, "__v":0, "capture":1, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":47, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":48, "__v":0, "capture":1, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":49, "__v":0, "capture":1
+          },
+          {
+            "position":50, "__v":0, "capture":15
+          },
+          {
+            "position":51, "__v":0, "capture":8, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":52, "__v":0, "capture":8, "restrict_id":"lucifer", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":53, "__v":0, "capture":8, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":54, "__v":0, "capture":8, "restrict_id":"lucifer", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":55, "__v":0, "capture":15
+          },
+          {
+            "position":56, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":57, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":58, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":59, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":60, "__v":0, "capture":15
+          },
+          {
+            "position":61, "__v":0, "capture":8, "restrict_id":"rabbitintheblackroom", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":62, "__v":0, "capture":8, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":63, "__v":0, "capture":8, "restrict_id":"rabbitintheblackroom", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":64, "__v":0, "capture":8, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":65, "__v":0, "capture":15
+          },
+          {
+            "position":66, "__v":0, "capture":1
+          },
+          {
+            "position":67, "__v":0, "capture":1, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":68, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":69, "__v":0, "capture":1, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":70, "__v":0, "capture":15
+          },
+          {
+            "position":71, "__v":0, "capture":8
+          },
+          {
+            "position":72, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":73, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":74, "__v":0, "capture":8
+          },
+          {
+            "position":75, "__v":0, "capture":15
+          },
+          {
+            "position":76, "__v":0, "capture":8, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":30
+          },
+          {
+            "position":77, "__v":0, "capture":8, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":30
+          },
+          {
+            "position":78, "__v":0, "capture":8, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":30
+          },
+          {
+            "position":79, "__v":0, "capture":8, "restrict_id":"dropdead", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":30
+          },
+          {
+            "position":80, "__v":0, "capture":15, "items":[
+              {
+                "id":500, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":81, "__v":0, "capture":8, "restrict_id":"nhelv", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":82, "__v":0, "capture":8, "restrict_id":"nhelv", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":83, "__v":0, "capture":8, "restrict_id":"nhelv", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":84, "__v":0, "capture":8, "restrict_id":"nhelv", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":85, "__v":0, "capture":0, "items":[
+              {
+                "id":500, "type":"fragment"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

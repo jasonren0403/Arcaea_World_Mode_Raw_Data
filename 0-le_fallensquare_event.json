@@ -1,0 +1,386 @@
+{
+  "success":true, "value":{
+    "user_id":324036, "current_map":"fallensquare_event", "maps":[
+      {
+        "map_id":"fallensquare_event", "is_legacy":false, "chapter":0, "is_available":true, "available_from":1534118400000, "available_to":1534777140000, "is_repeatable":false, "require_id":"fallensquare", "require_type":"single", "stamina_cost":1, "coordinate":"-350,120", "step_count":75, "custom_bg":"", "curr_position":35, "curr_capture":14.350549783971, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":4
+          },
+          {
+            "position":1, "__v":0, "capture":9, "restrict_id":"fallensquare", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":2, "__v":0, "capture":16
+          },
+          {
+            "position":3, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":4, "__v":0, "capture":9, "restrict_id":"infinityheaven", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":5, "__v":0, "capture":16, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":6, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":7, "__v":0, "capture":9, "restrict_id":"infinityheaven", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":8, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":9, "__v":0, "capture":4, "items":[
+              {
+                "id":100, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":10, "__v":0, "capture":9, "restrict_id":"fallensquare", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":11, "__v":0, "capture":16
+          },
+          {
+            "position":12, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":13, "__v":0, "capture":9, "restrict_id":"rise", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":14, "__v":0, "capture":16, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":15, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":16, "__v":0, "capture":9, "restrict_id":"rise", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":17, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":18, "__v":0, "capture":4, "items":[
+              {
+                "id":144, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":19, "__v":0, "capture":9, "restrict_id":"fallensquare", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":20, "__v":0, "capture":16
+          },
+          {
+            "position":21, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":22, "__v":0, "capture":9, "restrict_id":"inkarusi", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":23, "__v":0, "capture":16, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":24, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":25, "__v":0, "capture":9, "restrict_id":"inkarusi", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":26, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":27, "__v":0, "capture":4, "items":[
+              {
+                "id":169, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":28, "__v":0, "capture":9, "restrict_id":"fallensquare", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":29, "__v":0, "capture":16
+          },
+          {
+            "position":30, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":31, "__v":0, "capture":9, "restrict_id":"reinvent", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":32, "__v":0, "capture":16, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":33, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":34, "__v":0, "capture":9, "restrict_id":"reinvent", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":35, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":36, "__v":0, "capture":4, "items":[
+              {
+                "id":196, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":37, "__v":0, "capture":9, "restrict_id":"fallensquare", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":38, "__v":0, "capture":16
+          },
+          {
+            "position":39, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":40, "__v":0, "capture":9, "restrict_id":"onelastdrive", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":41, "__v":0, "capture":16, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":42, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":43, "__v":0, "capture":9, "restrict_id":"onelastdrive", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":44, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":45, "__v":0, "capture":4, "items":[
+              {
+                "id":225, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":46, "__v":0, "capture":9, "restrict_id":"fallensquare", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":47, "__v":0, "capture":16
+          },
+          {
+            "position":48, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":49, "__v":0, "capture":9, "restrict_id":"snowwhite", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":50, "__v":0, "capture":16, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":51, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":52, "__v":0, "capture":9, "restrict_id":"snowwhite", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":53, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":54, "__v":0, "capture":4, "items":[
+              {
+                "id":256, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":55, "__v":0, "capture":9, "restrict_id":"fallensquare", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":56, "__v":0, "capture":16
+          },
+          {
+            "position":57, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":58, "__v":0, "capture":9, "restrict_id":"babaroque", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":59, "__v":0, "capture":16, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":60, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":61, "__v":0, "capture":9, "restrict_id":"babaroque", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":62, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":63, "__v":0, "capture":4, "items":[
+              {
+                "id":289, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":64, "__v":0, "capture":9, "restrict_id":"fallensquare", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":65, "__v":0, "capture":16
+          },
+          {
+            "position":66, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":67, "__v":0, "capture":9, "restrict_id":"harutopia", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":68, "__v":0, "capture":16, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":69, "__v":0, "capture":4, "restrict_id":"base", "restrict_type":"pack_id"
+          },
+          {
+            "position":70, "__v":0, "capture":9, "restrict_id":"harutopia", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":15
+          },
+          {
+            "position":71, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":1
+          },
+          {
+            "position":72, "__v":0, "capture":4, "items":[
+              {
+                "id":324, "type":"fragment"
+              }
+            ]
+          },
+          {
+            "position":73, "__v":0, "capture":25, "restrict_id":"nhelv", "restrict_type":"song_id", "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":74, "__v":0, "capture":0, "items":[
+              {
+                "id":361, "type":"fragment"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
