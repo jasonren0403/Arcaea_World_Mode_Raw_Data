@@ -5,10 +5,10 @@ $f= fopen('out.txt', 'w');
 
 $map = array(
   '0-0'=>'Fragments',
-  '0-l'=>'Lanota',
-  '0-e'=>'Event',
-  '0-le'=>'Event',
-  '0-ts'=>'Tone Sphere',
+  '0-L'=>'Lanota',
+  '0-E'=>'Event',
+  '0-LE'=>'Event',
+  '0-TS'=>'Tone Sphere',
   '1-1'=>'Light I',
   '1-2'=>'Conflict I',
   '1-3'=>'Light II',
@@ -31,7 +31,8 @@ $charater = [
   0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
   'Hikari (Summer)',
   'Tairitsu (Summer)',
-  'Tairitsu & Trin'
+  'Tairitsu & Trin',
+  'Ayu'
 ];
 // two files from unpacked game
 $songlist = json_decode(file_get_contents('songlist'), true);
@@ -47,7 +48,7 @@ foreach ($packlist['packs'] as &$pack) {
 chdir(__DIR__);
 chdir('data');
 foreach (glob('*-*.json') as $file) {
-  $numid = explode('_',$file)[0];
+  $numid = strtoupper(explode('_',$file)[0]);
   $file = json_decode(file_get_contents($file), true);
   $id = $file['value']['maps'][0]['map_id'];
   $tiles = $file['value']['maps'][0]['steps'];
