@@ -28,11 +28,12 @@ $map = array(
 );
 // previous charas not filled
 $charater = [
-  0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+  0,0,0,0,0,0,0,0,0,0,'Ilith',0,0,0,0,0,
   'Hikari (Summer)',
   'Tairitsu (Summer)',
   'Tairitsu & Trin',
-  'Ayu'
+  'Ayu',
+  'Eto & Luna'
 ];
 // two files from unpacked game
 $songlist = json_decode(file_get_contents('songlist'), true);
@@ -114,7 +115,7 @@ $total = [0,0,0,0];
     $reward = '-';
     if (isset($tile['items'])) {
       switch($tile['items'][0]['type']) {
-        case 'fragment': $reward = $tile['items'][0]['id'] .' fragments'; $total[1] += $tile['items'][0]['id']; break;
+        case 'fragment': $reward = getFrag($tile['items'][0]) .' fragments'; $total[1] += getFrag($tile['items'][0]); break;
         case 'character': $reward = '[['. $charater[$tile['items'][0]['id']].']]'; $total[2]++; break;
         case 'world_song': $reward = '[['. $songs[$tile['items'][0]['id']].']]'; $total[3]++; break;
       }
@@ -134,4 +135,14 @@ $total = [0,0,0,0];
 -------
 
 ');
+}
+
+function getFrag($i) {
+  if (isset($i['id'])) {
+    return $i['id'];
+  }
+  if (isset($i['amount'])) {
+    return $i['amount'];
+  }
+  throw new Exception('no key');
 }

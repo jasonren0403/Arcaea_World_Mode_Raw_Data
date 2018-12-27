@@ -1,0 +1,354 @@
+{
+  "success":true, "value":{
+    "user_id":324036, "current_map":"winter_event_2018", "maps":[
+      {
+        "map_id":"winter_event_2018", "is_legacy":false, "chapter":0, "is_available":true, "custom_bg":"winter", "available_from":1545523200000, "available_to":1546268400000, "is_repeatable":false, "require_id":"empireofwinter", "require_type":"single", "coordinate":"-350,120", "step_count":56, "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":10, "restrict_id":"empireofwinter", "restrict_type":"song_id"
+          },
+          {
+            "position":1, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":2, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":3, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":4, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":5, "__v":0, "capture":11, "items":[
+              {
+                "type":"fragment", "amount":50
+              }
+            ]
+          },
+          {
+            "position":6, "__v":0, "capture":11, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":7, "__v":0, "capture":11, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":8, "__v":0, "capture":11, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":9, "__v":0, "capture":11, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":10, "__v":0, "capture":12, "items":[
+              {
+                "type":"fragment", "amount":100
+              }
+            ]
+          },
+          {
+            "position":11, "__v":0, "capture":12, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":12, "__v":0, "capture":12, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":13, "__v":0, "capture":12, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":14, "__v":0, "capture":12, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":15, "__v":0, "capture":13, "items":[
+              {
+                "type":"fragment", "amount":150
+              }
+            ]
+          },
+          {
+            "position":16, "__v":0, "capture":13, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":17, "__v":0, "capture":13, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":18, "__v":0, "capture":13, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":19, "__v":0, "capture":13, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":20, "__v":0, "capture":14, "items":[
+              {
+                "type":"fragment", "amount":200
+              }
+            ]
+          },
+          {
+            "position":21, "__v":0, "capture":14, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":22, "__v":0, "capture":14, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":23, "__v":0, "capture":14, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":24, "__v":0, "capture":14, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":25, "__v":0, "capture":15, "items":[
+              {
+                "type":"fragment", "amount":250
+              }
+            ]
+          },
+          {
+            "position":26, "__v":0, "capture":15, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":27, "__v":0, "capture":15, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":28, "__v":0, "capture":15, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":29, "__v":0, "capture":15, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":30, "__v":0, "capture":16, "items":[
+              {
+                "type":"fragment", "amount":300
+              }
+            ]
+          },
+          {
+            "position":31, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":32, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":33, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":34, "__v":0, "capture":16, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":35, "__v":0, "capture":17, "items":[
+              {
+                "type":"fragment", "amount":350
+              }
+            ]
+          },
+          {
+            "position":36, "__v":0, "capture":17, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":37, "__v":0, "capture":17, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":38, "__v":0, "capture":17, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":39, "__v":0, "capture":17, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":40, "__v":0, "capture":18, "items":[
+              {
+                "type":"fragment", "amount":400
+              }
+            ]
+          },
+          {
+            "position":41, "__v":0, "capture":18, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":42, "__v":0, "capture":18, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":43, "__v":0, "capture":18, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":44, "__v":0, "capture":18, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":45, "__v":0, "capture":19, "items":[
+              {
+                "type":"fragment", "amount":450
+              }
+            ]
+          },
+          {
+            "position":46, "__v":0, "capture":19, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":47, "__v":0, "capture":19, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":48, "__v":0, "capture":19, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":49, "__v":0, "capture":19, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":50, "__v":0, "capture":20, "items":[
+              {
+                "type":"fragment", "amount":500
+              }
+            ]
+          },
+          {
+            "position":51, "__v":0, "capture":20, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":52, "__v":0, "capture":20, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":53, "__v":0, "capture":20, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":54, "__v":0, "capture":20, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":55, "__v":0, "capture":0, "items":[
+              {
+                "id":"20", "type":"character"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
