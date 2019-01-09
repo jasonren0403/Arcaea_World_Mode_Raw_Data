@@ -9,6 +9,7 @@ $map = array(
   '0-E'=>'Event',
   '0-LE'=>'Event',
   '0-TS'=>'Tone Sphere',
+  '0-GC'=>'Groove Coaster',
   '1-1'=>'Light I',
   '1-2'=>'Conflict I',
   '1-3'=>'Light II',
@@ -33,7 +34,9 @@ $charater = [
   'Tairitsu (Summer)',
   'Tairitsu & Trin',
   'Ayu',
-  'Eto & Luna'
+  'Eto & Luna',
+  'Yume',
+  'Hikari & Seine'
 ];
 // two files from unpacked game
 $songlist = json_decode(file_get_contents('songlist'), true);
