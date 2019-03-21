@@ -26,17 +26,22 @@ $map = array(
   '3-3'=>'Luminous',
   '3-4'=>'Fracture',
   '3-5'=>'Conflict IV',
+  '3-6'=>'Solitary Dream',
+  '4-1'=>'Absolute Reason',
+  '4-2'=>'Light IV',
+  '4-3'=>'Conflict V',
 );
 // previous charas not filled
 $charater = [
-  0,0,0,0,0,0,0,0,0,0,'Ilith',0,0,0,0,0,
+  0,1,2,3,4,5,'Tairitsu (Axium Crisis)','Tairitsu (Grievous Lady)',8,'Hikari & Fisica','Ilith','Eto','Luna',12,'Hikari (Zero)','Hikari (Fracture)',
   'Hikari (Summer)',
   'Tairitsu (Summer)',
   'Tairitsu & Trin',
   'Ayu',
   'Eto & Luna',
   'Yume',
-  'Hikari & Seine'
+  'Hikari & Seine',
+  'Saya'
 ];
 // two files from unpacked game
 $songlist = json_decode(file_get_contents('songlist'), true);
@@ -58,11 +63,19 @@ foreach (glob('*-*.json') as $file) {
   $tiles = $file['value']['maps'][0]['steps'];
   fwrite($f, '=='.$numid.' '.$map[$numid].'==
 '.$map[$numid].' (internal named "'.$id.'")
-{| style="width: 500px;" class="article-table" cellspacing="1" cellpadding="1" border="0"
+{| style="width: 500px;" class="article-table mw-collapsible" cellspacing="1" cellpadding="1" border="0"
 |-
 ! scope="col"|Tile !! scope="col"|Step<br />(remaining to next reward) !! scope="col"|Special tile !! scope="col"|Reward
 ');
-$total = [0,0,0,0];
+  $total = [
+    'step' => 0,
+    'frag' => 0,
+    'char' => 0,
+    'song' => 0,
+    'ether' => 0,
+    'hollow' => 0,
+    'desolate' => 0,
+  ];
   $i=0;
   $remain = [0];
   $remainIndex = 0;
@@ -78,7 +91,7 @@ $total = [0,0,0,0];
   foreach ($tiles as $tile) {
     $i++;
     $step = $tile['capture'];
-    $total[0] += $step;
+    $total['step'] += $step;
     if ($remaining == 0 && $step != 0) {
       $remainIndex++;
       $remaining = $remain[$remainIndex];
@@ -115,24 +128,41 @@ $total = [0,0,0,0];
     }
     if (empty($restriction)) $restriction[] = '-';
     $restriction = implode("<br />", $restriction);
-    $reward = '-';
+    $reward = [];
     if (isset($tile['items'])) {
+      if (isset($tile['items'][1])) {
+        print_r($tile['items']);exit;
+      }
       switch($tile['items'][0]['type']) {
-        case 'fragment': $reward = getFrag($tile['items'][0]) .' fragments'; $total[1] += getFrag($tile['items'][0]); break;
-        case 'character': $reward = '[['. $charater[$tile['items'][0]['id']].']]'; $total[2]++; break;
-        case 'world_song': $reward = '[['. $songs[$tile['items'][0]['id']].']]'; $total[3]++; break;
+        case 'fragment': $reward[] = getFrag($tile['items'][0]) .' fragments'; $total['frag'] += getFrag($tile['items'][0]); break;
+        case 'character': $reward[] = '[['. $charater[$tile['items'][0]['id']].']]'; $total['song']++; break;
+        case 'world_song': $reward[] = '[['. $songs[$tile['items'][0]['id']].']]'; $total['char']++; break;
+        case 'core': {
+          switch ($tile['items'][0]['id']) {
+            case 'core_generic': { $reward[] = 'Ether Drop &times; '.$tile['items'][0]['amount']; $total['ether']+=$tile['items'][0]['amount']; break; }
+            case 'core_hollow': { $reward[] = 'Hollow Core &times; '.$tile['items'][0]['amount']; $total['hollow']+=$tile['items'][0]['amount']; break; }
+            case 'core_desolate': { $reward[] = 'Desolate Core &times; '.$tile['items'][0]['amount']; $total['desolate']+=$tile['items'][0]['amount']; break; }
+            default: {print_r($tile['items']);exit;}
+          }
+          break;
+        }
+        default: {print_r($tile['items']);exit;}
       }
     }
+    $reward = implode('<br />', $reward) ?: '-';
 
     fwrite($f, "|-
 | ${i} || ${step} (${remaining}) || ${restriction} || ${reward}
 ");
   }
-  $total_reward = [$total[1].' fragments'];
-  if ($total[2]) $total_reward[] = $total[2].' character';
-  if ($total[3]) $total_reward[] = $total[3].' song'.($total[3]>1?'s':'');
+  $total_reward = [$total['frag'].' fragments'];
+  if ($total['song']) $total_reward[] = $total['song'].' character';
+  if ($total['char']) $total_reward[] = $total['char'].' song'.($total['char']>1?'s':'');
+  if ($total['ether']) $total_reward[] = $total['ether'].' Ether Drop'.($total['ether']>1?'s':'');
+  if ($total['hollow']) $total_reward[] = $total['hollow'].' Hollow Core'.($total['hollow']>1?'s':'');
+  if ($total['desolate']) $total_reward[] = $total['desolate'].' Desolate Core'.($total['desolate']>1?'s':'');
   fwrite($f, '|-
-| Total || \'\'\''.$total[0].'\'\'\' || \'\'\'-\'\'\' || \'\'\''.implode(', ', $total_reward).'\'\'\'
+| Total || \'\'\''.$total['step'].'\'\'\' || \'\'\'-\'\'\' || \'\'\''.implode(', ', $total_reward).'\'\'\'
 |}
 
 -------
