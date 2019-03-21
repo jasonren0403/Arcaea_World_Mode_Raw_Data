@@ -1,8 +1,8 @@
 {
   "success":true, "value":{
-    "user_id":19577, "current_map":"lanota", "maps":[
+    "user_id":324036, "current_map":"lanota", "maps":[
       {
-        "map_id":"lanota", "chapter":0, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"lanota", "require_type":"pack", "coordinate":"350,0", "step_count":35, "stamina_cost":2, "custom_bg":"", "is_available":true, "curr_position":34, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"lanota", "chapter":0, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"lanota", "require_type":"pack", "coordinate":"250,-150", "step_count":35, "stamina_cost":2, "custom_bg":"", "is_available":true, "is_legacy":false, "curr_position":34, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":11
           },
@@ -21,7 +21,7 @@
           {
             "position":5, "__v":0, "capture":11, "items":[
               {
-                "id":40, "type":"fragment"
+                "type":"fragment", "amount":40
               }
             ]
           },
@@ -40,7 +40,7 @@
           {
             "position":10, "__v":0, "capture":10, "items":[
               {
-                "id":50, "type":"fragment"
+                "type":"fragment", "amount":50
               }
             ]
           },
@@ -48,7 +48,11 @@
             "position":11, "__v":0, "capture":12
           },
           {
-            "position":12, "__v":0, "capture":12
+            "position":12, "__v":0, "capture":12, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":13, "__v":0, "capture":12, "restrict_id":"specta", "restrict_type":"song_id"
@@ -59,7 +63,7 @@
           {
             "position":15, "__v":0, "capture":12, "items":[
               {
-                "id":60, "type":"fragment"
+                "type":"fragment", "amount":60
               }
             ]
           },
@@ -78,7 +82,7 @@
           {
             "position":20, "__v":0, "capture":11, "items":[
               {
-                "id":70, "type":"fragment"
+                "type":"fragment", "amount":70
               }
             ]
           },
@@ -97,7 +101,7 @@
           {
             "position":25, "__v":0, "capture":11, "items":[
               {
-                "id":80, "type":"fragment"
+                "type":"fragment", "amount":80
               }
             ]
           },
@@ -105,7 +109,11 @@
             "position":26, "__v":0, "capture":12
           },
           {
-            "position":27, "__v":0, "capture":10
+            "position":27, "__v":0, "capture":10, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":28, "__v":0, "capture":12, "restrict_id":"dreamgoeson", "restrict_type":"song_id"
@@ -125,7 +133,7 @@
           {
             "position":33, "__v":0, "capture":11, "items":[
               {
-                "id":90, "type":"fragment"
+                "type":"fragment", "amount":90
               }
             ]
           },

@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"chapter3_light", "maps":[
       {
-        "map_id":"chapter3_light", "is_legacy":false, "chapter":3, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"480,-140", "step_count":60, "custom_bg":"", "stamina_cost":2, "curr_position":30, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"chapter3_light", "is_legacy":false, "chapter":3, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"480,-140", "step_count":76, "custom_bg":"", "stamina_cost":2, "curr_position":59, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":11
           },
@@ -39,7 +39,7 @@
           {
             "position":10, "__v":0, "capture":12, "items":[
               {
-                "id":144, "type":"fragment"
+                "type":"fragment", "amount":144
               }
             ]
           },
@@ -50,7 +50,11 @@
             "position":12, "__v":0, "capture":12
           },
           {
-            "position":13, "__v":0, "capture":12
+            "position":13, "__v":0, "capture":12, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":14, "__v":0, "capture":12, "restrict_id":"base", "restrict_type":"pack_id"
@@ -76,7 +80,7 @@
           {
             "position":20, "__v":0, "capture":13, "items":[
               {
-                "id":169, "type":"fragment"
+                "type":"fragment", "amount":169
               }
             ]
           },
@@ -87,7 +91,11 @@
             "position":22, "__v":0, "capture":13
           },
           {
-            "position":23, "__v":0, "capture":13
+            "position":23, "__v":0, "capture":13, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":24, "__v":0, "capture":13, "restrict_id":"base", "restrict_type":"pack_id"
@@ -150,7 +158,7 @@
           {
             "position":40, "__v":0, "capture":15, "items":[
               {
-                "id":225, "type":"fragment"
+                "type":"fragment", "amount":225
               }
             ]
           },
@@ -161,7 +169,11 @@
             "position":42, "__v":0, "capture":15
           },
           {
-            "position":43, "__v":0, "capture":15
+            "position":43, "__v":0, "capture":15, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":44, "__v":0, "capture":15, "restrict_id":"suomi", "restrict_type":"song_id"
@@ -187,7 +199,7 @@
           {
             "position":50, "__v":0, "capture":16, "items":[
               {
-                "id":256, "type":"fragment"
+                "type":"fragment", "amount":256
               }
             ]
           },
@@ -198,7 +210,11 @@
             "position":52, "__v":0, "capture":16
           },
           {
-            "position":53, "__v":0, "capture":16
+            "position":53, "__v":0, "capture":16, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":54, "__v":0, "capture":16, "restrict_id":"suomi", "restrict_type":"song_id"
@@ -219,9 +235,69 @@
             "position":58, "__v":0, "capture":16
           },
           {
-            "position":59, "__v":0, "capture":0, "items":[
+            "position":59, "__v":0, "capture":16, "items":[
               {
                 "id":"rugie", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":60, "__v":0, "capture":55
+          },
+          {
+            "position":61, "__v":0, "capture":56
+          },
+          {
+            "position":62, "__v":0, "capture":57
+          },
+          {
+            "position":63, "__v":0, "capture":58
+          },
+          {
+            "position":64, "__v":0, "capture":59, "restrict_id":"bookmaker", "restrict_type":"song_id"
+          },
+          {
+            "position":65, "__v":0, "capture":65, "items":[
+              {
+                "type":"core", "id":"core_hollow", "amount":5
+              }
+            ]
+          },
+          {
+            "position":66, "__v":0, "capture":66
+          },
+          {
+            "position":67, "__v":0, "capture":67
+          },
+          {
+            "position":68, "__v":0, "capture":68
+          },
+          {
+            "position":69, "__v":0, "capture":69, "restrict_id":"darakunosono", "restrict_type":"song_id"
+          },
+          {
+            "position":70, "__v":0, "capture":75, "items":[
+              {
+                "type":"core", "id":"core_hollow", "amount":5
+              }
+            ]
+          },
+          {
+            "position":71, "__v":0, "capture":76
+          },
+          {
+            "position":72, "__v":0, "capture":77
+          },
+          {
+            "position":73, "__v":0, "capture":78
+          },
+          {
+            "position":74, "__v":0, "capture":79, "restrict_id":"espebranch", "restrict_type":"song_id"
+          },
+          {
+            "position":75, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_hollow", "amount":5
               }
             ]
           }

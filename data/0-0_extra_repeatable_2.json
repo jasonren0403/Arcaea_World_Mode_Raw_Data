@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"extra_repeatable_2", "maps":[
       {
-        "map_id":"extra_repeatable_2", "is_legacy":false, "chapter":0, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":true, "require_id":"", "require_type":"", "coordinate":"0,0", "step_count":51, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"extra_repeatable_2", "is_legacy":false, "chapter":0, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":true, "require_id":"", "require_type":"", "coordinate":"0,0", "step_count":51, "custom_bg":"", "stamina_cost":2, "curr_position":7, "curr_capture":5.056394472661273, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":10
           },
@@ -39,7 +39,7 @@
           {
             "position":10, "__v":0, "capture":8, "items":[
               {
-                "id":50, "type":"fragment"
+                "type":"fragment", "amount":50
               }
             ]
           },
@@ -76,7 +76,7 @@
           {
             "position":20, "__v":0, "capture":6, "items":[
               {
-                "id":75, "type":"fragment"
+                "type":"fragment", "amount":75
               }
             ]
           },
@@ -113,7 +113,7 @@
           {
             "position":30, "__v":0, "capture":4, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -150,7 +150,7 @@
           {
             "position":40, "__v":0, "capture":2, "items":[
               {
-                "id":125, "type":"fragment"
+                "type":"fragment", "amount":125
               }
             ]
           },
@@ -187,7 +187,7 @@
           {
             "position":50, "__v":0, "capture":0, "items":[
               {
-                "id":150, "type":"fragment"
+                "type":"fragment", "amount":150
               }
             ]
           }

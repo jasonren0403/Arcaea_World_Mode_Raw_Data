@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"fractureray", "maps":[
       {
-        "map_id":"fractureray", "is_legacy":false, "chapter":3, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"rei", "require_type":"pack", "require_localunlock_songid":"fractureray", "coordinate":"0,160", "step_count":23, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"fractureray", "is_legacy":false, "chapter":3, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"rei", "require_type":"pack", "require_localunlock_songid":"fractureray", "coordinate":"0,160", "step_count":23, "custom_bg":"", "stamina_cost":2, "curr_position":22, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":1, "restrict_id":"fractureray", "restrict_type":"song_id"
           },
@@ -48,12 +48,16 @@
           {
             "position":13, "__v":0, "capture":30, "items":[
               {
-                "id":150, "type":"fragment"
+                "type":"fragment", "amount":150
               }
             ]
           },
           {
-            "position":14, "__v":0, "capture":35, "restrict_id":"rei", "restrict_type":"pack_id"
+            "position":14, "__v":0, "capture":35, "restrict_id":"rei", "restrict_type":"pack_id", "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":15, "__v":0, "capture":40, "step_type":[
@@ -64,12 +68,16 @@
           {
             "position":16, "__v":0, "capture":45, "items":[
               {
-                "id":250, "type":"fragment"
+                "type":"fragment", "amount":250
               }
             ]
           },
           {
-            "position":17, "__v":0, "capture":50, "restrict_id":"rei", "restrict_type":"pack_id"
+            "position":17, "__v":0, "capture":50, "restrict_id":"rei", "restrict_type":"pack_id", "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":18, "__v":0, "capture":55, "step_type":[
@@ -80,13 +88,18 @@
           {
             "position":19, "__v":0, "capture":60, "items":[
               {
-                "id":350, "type":"fragment"
+                "type":"fragment", "amount":350
               }
             ]
           },
           {
             "position":20, "__v":0, "capture":65, "restrict_id":"rei", "restrict_type":"pack_id", "step_type":[
               "randomsong"
+            ],
+            "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
             ]
           },
           {

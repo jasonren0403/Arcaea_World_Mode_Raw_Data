@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"tairitsu_tech", "maps":[
       {
-        "map_id":"tairitsu_tech", "chapter":1, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"", "require_value":1, "coordinate":"250,-150", "step_count":76, "stamina_cost":2, "custom_bg":"", "curr_position":75, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"tairitsu_tech", "chapter":1, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"", "require_value":1, "coordinate":"250,-150", "step_count":91, "stamina_cost":1, "custom_bg":"", "is_available":true, "is_legacy":true, "curr_position":75, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":5
           },
@@ -40,7 +40,7 @@
           {
             "position":10, "__v":0, "capture":6, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -59,7 +59,7 @@
           {
             "position":15, "__v":0, "capture":6, "items":[
               {
-                "id":50, "type":"fragment"
+                "type":"fragment", "amount":50
               }
             ]
           },
@@ -78,7 +78,7 @@
           {
             "position":20, "__v":0, "capture":6, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -97,7 +97,7 @@
           {
             "position":25, "__v":0, "capture":6, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -105,7 +105,11 @@
             "position":26, "__v":0, "capture":6
           },
           {
-            "position":27, "__v":0, "capture":6
+            "position":27, "__v":0, "capture":6, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":28, "__v":0, "capture":6, "restrict_id":"lucifer", "restrict_type":"song_id"
@@ -135,7 +139,7 @@
           {
             "position":35, "__v":0, "capture":7, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -154,7 +158,7 @@
           {
             "position":40, "__v":0, "capture":7, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -173,7 +177,7 @@
           {
             "position":45, "__v":0, "capture":7, "items":[
               {
-                "id":50, "type":"fragment"
+                "type":"fragment", "amount":50
               }
             ]
           },
@@ -192,7 +196,7 @@
           {
             "position":50, "__v":0, "capture":7, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -211,7 +215,7 @@
           {
             "position":55, "__v":0, "capture":7, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -230,7 +234,7 @@
           {
             "position":60, "__v":0, "capture":7, "items":[
               {
-                "id":50, "type":"fragment"
+                "type":"fragment", "amount":50
               }
             ]
           },
@@ -249,7 +253,7 @@
           {
             "position":65, "__v":0, "capture":7, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -266,7 +270,11 @@
             "position":69, "__v":0, "capture":7
           },
           {
-            "position":70, "__v":0, "capture":7
+            "position":70, "__v":0, "capture":7, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":71, "__v":0, "capture":7, "restrict_id":"lucifer", "restrict_type":"song_id"
@@ -281,9 +289,66 @@
             "position":74, "__v":0, "capture":7, "restrict_id":"anokumene", "restrict_type":"song_id"
           },
           {
-            "position":75, "__v":0, "capture":0, "items":[
+            "position":75, "__v":0, "capture":100, "items":[
               {
                 "id":"ignotus", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":76, "__v":0, "capture":100
+          },
+          {
+            "position":77, "__v":0, "capture":100
+          },
+          {
+            "position":78, "__v":0, "capture":100
+          },
+          {
+            "position":79, "__v":0, "capture":100, "restrict_id":"babaroque", "restrict_type":"song_id"
+          },
+          {
+            "position":80, "__v":0, "capture":100, "items":[
+              {
+                "type":"core", "id":"core_desolate", "amount":5
+              }
+            ]
+          },
+          {
+            "position":81, "__v":0, "capture":150
+          },
+          {
+            "position":82, "__v":0, "capture":150
+          },
+          {
+            "position":83, "__v":0, "capture":150
+          },
+          {
+            "position":84, "__v":0, "capture":150, "restrict_id":"shadesoflight", "restrict_type":"song_id"
+          },
+          {
+            "position":85, "__v":0, "capture":150, "items":[
+              {
+                "type":"core", "id":"core_desolate", "amount":5
+              }
+            ]
+          },
+          {
+            "position":86, "__v":0, "capture":200
+          },
+          {
+            "position":87, "__v":0, "capture":200
+          },
+          {
+            "position":88, "__v":0, "capture":200
+          },
+          {
+            "position":89, "__v":0, "capture":200, "restrict_id":"kanagawa", "restrict_type":"song_id"
+          },
+          {
+            "position":90, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_desolate", "amount":5
               }
             ]
           }

@@ -1,8 +1,8 @@
 {
   "success":true, "value":{
-    "user_id":19577, "current_map":"eternal", "maps":[
+    "user_id":324036, "current_map":"eternal", "maps":[
       {
-        "map_id":"eternal", "chapter":1, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"core", "require_type":"pack", "require_value":1, "coordinate":"-500,0", "step_count":66, "stamina_cost":2, "custom_bg":"", "is_available":true, "curr_position":0, "curr_capture":9.375526812231, "is_locked":false, "steps":[
+        "map_id":"eternal", "chapter":1, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"core", "require_type":"pack", "require_value":1, "coordinate":"-500,0", "step_count":66, "stamina_cost":1, "custom_bg":"", "is_available":true, "is_legacy":true, "curr_position":65, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":10
           },
@@ -21,7 +21,7 @@
           {
             "position":5, "__v":0, "capture":10, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -40,7 +40,7 @@
           {
             "position":10, "__v":0, "capture":10, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -76,7 +76,11 @@
             "position":19, "__v":0, "capture":10
           },
           {
-            "position":20, "__v":0, "capture":10
+            "position":20, "__v":0, "capture":10, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
+              }
+            ]
           },
           {
             "position":21, "__v":0, "capture":10
@@ -102,7 +106,7 @@
           {
             "position":28, "__v":0, "capture":10, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -127,7 +131,7 @@
           {
             "position":35, "__v":0, "capture":10, "items":[
               {
-                "id":200, "type":"fragment"
+                "type":"fragment", "amount":200
               }
             ]
           },
@@ -144,7 +148,11 @@
             "position":39, "__v":0, "capture":10
           },
           {
-            "position":40, "__v":0, "capture":10
+            "position":40, "__v":0, "capture":10, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
+              }
+            ]
           },
           {
             "position":41, "__v":0, "capture":10, "restrict_id":"core", "restrict_type":"pack_id"
@@ -152,7 +160,7 @@
           {
             "position":42, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -162,7 +170,7 @@
           {
             "position":44, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -172,7 +180,7 @@
           {
             "position":46, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -182,7 +190,7 @@
           {
             "position":48, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -202,7 +210,7 @@
           {
             "position":52, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -212,7 +220,7 @@
           {
             "position":54, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -222,7 +230,7 @@
           {
             "position":56, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -232,7 +240,7 @@
           {
             "position":58, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -242,7 +250,7 @@
           {
             "position":60, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },
@@ -252,7 +260,7 @@
           {
             "position":62, "__v":0, "capture":10, "items":[
               {
-                "id":25, "type":"fragment"
+                "type":"fragment", "amount":25
               }
             ]
           },

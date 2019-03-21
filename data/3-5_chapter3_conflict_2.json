@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"chapter3_conflict_2", "maps":[
       {
-        "map_id":"chapter3_conflict_2", "is_legacy":false, "chapter":3, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"-240,-200", "step_count":41, "custom_bg":"", "stamina_cost":2, "curr_position":8, "curr_capture":2.6367582520405, "is_locked":false, "steps":[
+        "map_id":"chapter3_conflict_2", "is_legacy":false, "chapter":3, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"-160,-200", "step_count":41, "custom_bg":"", "stamina_cost":2, "curr_position":40, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":10
           },
@@ -18,7 +18,11 @@
             ]
           },
           {
-            "position":4, "__v":0, "capture":10
+            "position":4, "__v":0, "capture":10, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":5, "__v":0, "capture":10, "step_type":[
@@ -41,7 +45,7 @@
           {
             "position":9, "__v":0, "capture":10, "items":[
               {
-                "id":125, "type":"fragment"
+                "type":"fragment", "amount":125
               }
             ]
           },
@@ -60,7 +64,11 @@
             ]
           },
           {
-            "position":14, "__v":0, "capture":10
+            "position":14, "__v":0, "capture":10, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":15, "__v":0, "capture":10, "step_type":[
@@ -83,7 +91,7 @@
           {
             "position":19, "__v":0, "capture":10, "items":[
               {
-                "id":125, "type":"fragment"
+                "type":"fragment", "amount":125
               }
             ]
           },
@@ -102,7 +110,11 @@
             ]
           },
           {
-            "position":24, "__v":0, "capture":10
+            "position":24, "__v":0, "capture":10, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":25, "__v":0, "capture":10, "step_type":[
@@ -125,7 +137,7 @@
           {
             "position":29, "__v":0, "capture":10, "items":[
               {
-                "id":125, "type":"fragment"
+                "type":"fragment", "amount":125
               }
             ]
           },
@@ -144,7 +156,11 @@
             ]
           },
           {
-            "position":34, "__v":0, "capture":10
+            "position":34, "__v":0, "capture":10, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":35, "__v":0, "capture":10, "step_type":[
@@ -167,7 +183,7 @@
           {
             "position":39, "__v":0, "capture":10, "items":[
               {
-                "id":125, "type":"fragment"
+                "type":"fragment", "amount":125
               }
             ]
           },

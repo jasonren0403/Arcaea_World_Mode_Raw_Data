@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"groovecoaster", "maps":[
       {
-        "map_id":"groovecoaster", "is_legacy":false, "chapter":0, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"groovecoaster", "require_type":"pack", "coordinate":"400,0", "step_count":46, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"groovecoaster", "is_legacy":false, "chapter":0, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"groovecoaster", "require_type":"pack", "coordinate":"400,0", "step_count":46, "custom_bg":"", "stamina_cost":2, "curr_position":45, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":1
           },
@@ -106,7 +106,11 @@
             ]
           },
           {
-            "position":30, "__v":0, "capture":11
+            "position":30, "__v":0, "capture":11, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":31, "__v":0, "capture":11
@@ -144,7 +148,11 @@
             ]
           },
           {
-            "position":40, "__v":0, "capture":14
+            "position":40, "__v":0, "capture":14, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
           },
           {
             "position":41, "__v":0, "capture":14
