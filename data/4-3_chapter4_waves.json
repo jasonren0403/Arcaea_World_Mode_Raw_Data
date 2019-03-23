@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"chapter4_waves", "maps":[
       {
-        "map_id":"chapter4_waves", "is_legacy":false, "chapter":4, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"180,100", "step_count":26, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"chapter4_waves", "is_legacy":false, "chapter":4, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"180,100", "step_count":26, "custom_bg":"", "stamina_cost":2, "curr_position":25, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":10
           },
@@ -45,7 +45,7 @@
             "position":10, "__v":0, "capture":10, "step_type":[
               "speedlimit"
             ],
-            "speed_limit_value":2
+            "speed_limit_value":20
           },
           {
             "position":11, "__v":0, "capture":11
@@ -86,7 +86,7 @@
             "position":20, "__v":0, "capture":10, "step_type":[
               "speedlimit"
             ],
-            "speed_limit_value":2
+            "speed_limit_value":20
           },
           {
             "position":21, "__v":0, "capture":11
