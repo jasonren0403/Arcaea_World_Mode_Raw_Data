@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"chapter4_waves", "maps":[
       {
-        "map_id":"chapter4_waves", "is_legacy":false, "chapter":4, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"180,100", "step_count":26, "custom_bg":"", "stamina_cost":2, "curr_position":25, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"chapter4_waves", "is_legacy":false, "chapter":4, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"180,100", "step_count":41, "custom_bg":"", "stamina_cost":2, "curr_position":25, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":10
           },
@@ -101,9 +101,69 @@
             "position":24, "__v":0, "capture":20
           },
           {
-            "position":25, "__v":0, "capture":0, "items":[
+            "position":25, "__v":0, "capture":25, "items":[
               {
                 "id":"revixy", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":26, "__v":0, "capture":26
+          },
+          {
+            "position":27, "__v":0, "capture":28
+          },
+          {
+            "position":28, "__v":0, "capture":31
+          },
+          {
+            "position":29, "__v":0, "capture":35
+          },
+          {
+            "position":30, "__v":0, "capture":40, "items":[
+              {
+                "type":"fragment", "amount":400
+              }
+            ]
+          },
+          {
+            "position":31, "__v":0, "capture":35, "restrict_id":"revixy", "restrict_type":"song_id"
+          },
+          {
+            "position":32, "__v":0, "capture":31, "restrict_id":"revixy", "restrict_type":"song_id"
+          },
+          {
+            "position":33, "__v":0, "capture":28, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
+          },
+          {
+            "position":34, "__v":0, "capture":26
+          },
+          {
+            "position":35, "__v":0, "capture":25, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":36, "__v":0, "capture":26
+          },
+          {
+            "position":37, "__v":0, "capture":28
+          },
+          {
+            "position":38, "__v":0, "capture":31
+          },
+          {
+            "position":39, "__v":0, "capture":35
+          },
+          {
+            "position":40, "__v":0, "capture":0, "items":[
+              {
+                "id":"supernova", "type":"world_song"
               }
             ]
           }

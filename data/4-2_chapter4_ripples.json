@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"chapter4_ripples", "maps":[
       {
-        "map_id":"chapter4_ripples", "is_legacy":false, "chapter":4, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"-180,-100", "step_count":21, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"chapter4_ripples", "is_legacy":false, "chapter":4, "is_available":true, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"-180,-100", "step_count":51, "custom_bg":"", "stamina_cost":2, "curr_position":20, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":13
           },
@@ -76,9 +76,118 @@
             "position":19, "__v":0, "capture":16
           },
           {
-            "position":20, "__v":0, "capture":0, "items":[
+            "position":20, "__v":0, "capture":17, "items":[
               {
                 "id":"grimheart", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":21, "__v":0, "capture":16
+          },
+          {
+            "position":22, "__v":0, "capture":15
+          },
+          {
+            "position":23, "__v":0, "capture":16
+          },
+          {
+            "position":24, "__v":0, "capture":17
+          },
+          {
+            "position":25, "__v":0, "capture":18
+          },
+          {
+            "position":26, "__v":0, "capture":19, "items":[
+              {
+                "type":"fragment", "amount":190
+              }
+            ]
+          },
+          {
+            "position":27, "__v":0, "capture":18, "restrict_id":"grimheart", "restrict_type":"song_id"
+          },
+          {
+            "position":28, "__v":0, "capture":17, "restrict_id":"grimheart", "restrict_type":"song_id"
+          },
+          {
+            "position":29, "__v":0, "capture":16, "restrict_id":"grimheart", "restrict_type":"song_id"
+          },
+          {
+            "position":30, "__v":0, "capture":15
+          },
+          {
+            "position":31, "__v":0, "capture":16
+          },
+          {
+            "position":32, "__v":0, "capture":17
+          },
+          {
+            "position":33, "__v":0, "capture":18
+          },
+          {
+            "position":34, "__v":0, "capture":19, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":35, "__v":0, "capture":18
+          },
+          {
+            "position":36, "__v":0, "capture":17
+          },
+          {
+            "position":37, "__v":0, "capture":16
+          },
+          {
+            "position":38, "__v":0, "capture":15
+          },
+          {
+            "position":39, "__v":0, "capture":16
+          },
+          {
+            "position":40, "__v":0, "capture":17
+          },
+          {
+            "position":41, "__v":0, "capture":18
+          },
+          {
+            "position":42, "__v":0, "capture":19, "items":[
+              {
+                "type":"fragment", "amount":190
+              }
+            ]
+          },
+          {
+            "position":43, "__v":0, "capture":18, "restrict_id":"grimheart", "restrict_type":"song_id"
+          },
+          {
+            "position":44, "__v":0, "capture":17, "restrict_id":"grimheart", "restrict_type":"song_id"
+          },
+          {
+            "position":45, "__v":0, "capture":16, "restrict_id":"grimheart", "restrict_type":"song_id"
+          },
+          {
+            "position":46, "__v":0, "capture":15, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
+          },
+          {
+            "position":47, "__v":0, "capture":16
+          },
+          {
+            "position":48, "__v":0, "capture":17
+          },
+          {
+            "position":49, "__v":0, "capture":18
+          },
+          {
+            "position":50, "__v":0, "capture":0, "items":[
+              {
+                "id":"vector", "type":"world_song"
               }
             ]
           }
