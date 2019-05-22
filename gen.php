@@ -46,8 +46,8 @@ $charater = [
 ];
 $charater_cn = [
   0,1,2,3,4,5,'对立（Axium Crisis）','对立（Grievous Lady）',8,'光&菲希卡','依莉丝','爱托','露娜',12,'光（Zero）','光（Fracture）',
-  'Hikari (Summer)',
-  'Tairitsu (Summer)',
+  '光（Summer）',
+  '对立（Summer）',
   '对立 & 托凛',
   '彩梦',
   '爱托 & 露娜 -冬-',
@@ -55,6 +55,7 @@ $charater_cn = [
   '光 & 晴音',
   '咲弥'
 ];
+$core=0;
 // two files from unpacked game
 $songlist = json_decode(file_get_contents('songlist'), true);
 $packlist = json_decode(file_get_contents('packlist'), true);
@@ -95,6 +96,7 @@ foreach (glob('*-*.json') as $file) {
     'ether' => 0,
     'hollow' => 0,
     'desolate' => 0,
+    'item' => []
   ];
   $i=0;
   $remain = [0];
@@ -168,17 +170,18 @@ foreach (glob('*-*.json') as $file) {
         }
         case 'character': {
           $reward[] = '[['. $charater[$tile['items'][0]['id']].']]';
-          $reward_cn[] = '[[搭档#|'. $charater_cn[$tile['items'][0]['id']].']]';
-          $total['song']++; break;
+          $total['item'][] = $reward_cn[] = '[[搭档#|'. $charater_cn[$tile['items'][0]['id']].']]';
+          $total['char']++; break;
         }
         case 'world_song': {
           $reward[] = '[['. $songs[$tile['items'][0]['id']].']]';
-          $reward_cn[] = '[['. $songs[$tile['items'][0]['id']].']]';
-          $total['char']++; break;
+          $total['item'][] = $reward_cn[] = '[['. $songs[$tile['items'][0]['id']].']]';
+          $total['song']++; break;
         }
         case 'core': {
           switch ($tile['items'][0]['id']) {
             case 'core_generic': {
+              $core+=$tile['items'][0]['amount'];
               $reward[] = 'Ether Drop &times; '.$tile['items'][0]['amount'];
               $reward_cn[] = '以太之滴 &times; '.$tile['items'][0]['amount'];
               $total['ether']+=$tile['items'][0]['amount']; break;
@@ -211,14 +214,13 @@ foreach (glob('*-*.json') as $file) {
 ");
   }
   $total_reward = [$total['frag'].' fragments'];
-  if ($total['song']) $total_reward[] = $total['song'].' character';
-  if ($total['char']) $total_reward[] = $total['char'].' song'.($total['char']>1?'s':'');
+  if ($total['char']) $total_reward[] = $total['char'].' character';
+  if ($total['song']) $total_reward[] = $total['song'].' song'.($total['song']>1?'s':'');
   if ($total['ether']) $total_reward[] = $total['ether'].' Ether Drop'.($total['ether']>1?'s':'');
   if ($total['hollow']) $total_reward[] = $total['hollow'].' Hollow Core'.($total['hollow']>1?'s':'');
   if ($total['desolate']) $total_reward[] = $total['desolate'].' Desolate Core'.($total['desolate']>1?'s':'');
   $total_reward_cn = [$total['frag'].' 残片'];
-  if ($total['song']) $total_reward_cn[] = $total['song'].' 角色';
-  if ($total['char']) $total_reward_cn[] = $total['char'].' 歌曲';
+  if (count($total['item'])) $total_reward_cn[] = implode('<br />', $total['item']);
   if ($total['ether']) $total_reward_cn[] = $total['ether'].' 以太之滴';
   if ($total['hollow']) $total_reward_cn[] = $total['hollow'].' 中空核心';
   if ($total['desolate']) $total_reward_cn[] = $total['desolate'].' 荒芜核心';
@@ -236,8 +238,9 @@ foreach (glob('*-*.json') as $file) {
 -------
 
 ');
+  echo "$numid $id $core\n";
 }
-
+var_dump($core);
 function getFrag($i) {
   if (isset($i['id'])) {
     return $i['id'];
