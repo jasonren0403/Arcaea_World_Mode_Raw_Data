@@ -31,10 +31,11 @@ $map = array(
   '4-1'=>'Absolute Reason',
   '4-2'=>'Light IV',
   '4-3'=>'Conflict V',
+  '4-4'=>'CHUNITHM',
 );
 // previous charas not filled
 $charater = [
-  0,1,2,3,4,5,'Tairitsu (Axium Crisis)','Tairitsu (Grievous Lady)',8,'Hikari & Fisica','Ilith','Eto','Luna',12,'Hikari (Zero)','Hikari (Fracture)',
+  0,1,2,3,4,5,'Tairitsu (Axium)','Tairitsu (Grievous Lady)',8,'Hikari & Fisica','Ilith','Eto','Luna',12,'Hikari (Zero)','Hikari (Fracture)',
   'Hikari (Summer)',
   'Tairitsu (Summer)',
   'Tairitsu & Trin',
@@ -42,10 +43,16 @@ $charater = [
   'Eto & Luna',
   'Yume',
   'Hikari & Seine',
-  'Saya'
+  'Saya', // 23 10
+  'Tairitsu & Chuni Penguin', // 24
+  'Chuni Penguin', // 25
+  'Haruna', // 26
+  'Nono', // 27
+  'MTA-XXX', // 28
+  'MDA-21', // 29
 ];
 $charater_cn = [
-  0,1,2,3,4,5,'对立（Axium Crisis）','对立（Grievous Lady）',8,'光&菲希卡','依莉丝','爱托','露娜',12,'光（Zero）','光（Fracture）',
+  0,1,2,3,4,5,'对立（Axium）','对立（Grievous Lady）',8,'光&菲希卡','依莉丝','爱托','露娜',12,'光（Zero）','光（Fracture）',
   '光（Summer）',
   '对立（Summer）',
   '对立 & 托凛',
@@ -53,7 +60,13 @@ $charater_cn = [
   '爱托 & 露娜 -冬-',
   '梦',
   '光 & 晴音',
-  '咲弥'
+  '咲弥',
+  '对立 & 中二企鹅', // 24
+  '中二企鹅', // 25
+  '榛名', // 26
+  '诺诺', // 27
+  'MTA-XXX', // 28
+  'MDA-21', // 29
 ];
 $core=0;
 // two files from unpacked game
@@ -96,6 +109,7 @@ foreach (glob('*-*.json') as $file) {
     'ether' => 0,
     'hollow' => 0,
     'desolate' => 0,
+    'chunithm' => 0,
     'item' => []
   ];
   $i=0;
@@ -196,6 +210,11 @@ foreach (glob('*-*.json') as $file) {
               $reward_cn[] = '荒芜核心 &times; '.$tile['items'][0]['amount'];
               $total['desolate']+=$tile['items'][0]['amount']; break;
             }
+            case 'core_chunithm': {
+              $reward[] = 'CHUNITHM Core &times; '.$tile['items'][0]['amount'];
+              $reward_cn[] = 'CHUNITHM 核心 &times; '.$tile['items'][0]['amount'];
+              $total['chunithm']+=$tile['items'][0]['amount']; break;
+            }
             default: {print_r($tile['items']);exit;}
           }
           break;
@@ -219,11 +238,13 @@ foreach (glob('*-*.json') as $file) {
   if ($total['ether']) $total_reward[] = $total['ether'].' Ether Drop'.($total['ether']>1?'s':'');
   if ($total['hollow']) $total_reward[] = $total['hollow'].' Hollow Core'.($total['hollow']>1?'s':'');
   if ($total['desolate']) $total_reward[] = $total['desolate'].' Desolate Core'.($total['desolate']>1?'s':'');
+  if ($total['chunithm']) $total_reward[] = $total['chunithm'].' CHUNITHM Core'.($total['chunithm']>1?'s':'');
   $total_reward_cn = [$total['frag'].' 残片'];
   if (count($total['item'])) $total_reward_cn[] = implode('<br />', $total['item']);
   if ($total['ether']) $total_reward_cn[] = $total['ether'].' 以太之滴';
   if ($total['hollow']) $total_reward_cn[] = $total['hollow'].' 中空核心';
   if ($total['desolate']) $total_reward_cn[] = $total['desolate'].' 荒芜核心';
+  if ($total['chunithm']) $total_reward_cn[] = $total['chunithm'].' CHUNITHM 核心';
   fwrite($f, '|-
 | Total || \'\'\''.$total['step'].'\'\'\' || \'\'\'-\'\'\' || \'\'\''.implode(', ', $total_reward).'\'\'\'
 |}
