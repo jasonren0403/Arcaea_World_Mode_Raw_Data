@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"auxesia_event_2", "maps":[
       {
-        "map_id":"auxesia_event_2", "is_legacy":false, "chapter":0, "is_available":true, "available_from":1535673600000, "available_to":1536332340000, "is_repeatable":false, "require_id":"auxesia", "require_type":"single", "coordinate":"-350,0", "step_count":114, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"auxesia_event_2", "is_legacy":false, "chapter":0, "available_from":1564790400000, "available_to":1565449200000, "is_repeatable":false, "require_id":"auxesia", "require_type":"single", "coordinate":"-350,0", "step_count":176, "custom_bg":"", "stamina_cost":2, "curr_position":113, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":20
           },
@@ -12,7 +12,7 @@
           {
             "position":2, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -25,7 +25,7 @@
           {
             "position":5, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -38,7 +38,7 @@
           {
             "position":8, "__v":0, "capture":10, "restrict_id":"auxesia", "restrict_type":"song_id", "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -51,7 +51,7 @@
           {
             "position":11, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -64,7 +64,7 @@
           {
             "position":14, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -83,7 +83,7 @@
           {
             "position":18, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -96,7 +96,7 @@
           {
             "position":21, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -109,7 +109,7 @@
           {
             "position":24, "__v":0, "capture":10, "restrict_id":"auxesia", "restrict_type":"song_id", "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -122,7 +122,7 @@
           {
             "position":27, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -135,7 +135,7 @@
           {
             "position":30, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -154,7 +154,7 @@
           {
             "position":34, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -167,7 +167,7 @@
           {
             "position":37, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -180,7 +180,7 @@
           {
             "position":40, "__v":0, "capture":10, "restrict_id":"auxesia", "restrict_type":"song_id", "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -193,7 +193,7 @@
           {
             "position":43, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -206,7 +206,7 @@
           {
             "position":46, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -225,7 +225,7 @@
           {
             "position":50, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -238,7 +238,7 @@
           {
             "position":53, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -251,7 +251,7 @@
           {
             "position":56, "__v":0, "capture":10, "restrict_id":"auxesia", "restrict_type":"song_id", "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -264,7 +264,7 @@
           {
             "position":59, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -277,7 +277,7 @@
           {
             "position":62, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -296,7 +296,7 @@
           {
             "position":66, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -309,7 +309,7 @@
           {
             "position":69, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -322,7 +322,7 @@
           {
             "position":72, "__v":0, "capture":10, "restrict_id":"auxesia", "restrict_type":"song_id", "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -335,7 +335,7 @@
           {
             "position":75, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -348,7 +348,7 @@
           {
             "position":78, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -356,10 +356,7 @@
             "position":79, "__v":0, "capture":10
           },
           {
-            "position":80, "__v":0, "capture":20, "step_type":[
-              "plusstamina"
-            ],
-            "plus_stamina_value":2, "items":[
+            "position":80, "__v":0, "capture":20, "plus_stamina_value":2, "items":[
               {
                 "id":"16", "type":"character"
               }
@@ -371,7 +368,7 @@
           {
             "position":82, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -384,7 +381,7 @@
           {
             "position":85, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -397,7 +394,7 @@
           {
             "position":88, "__v":0, "capture":10, "restrict_id":"auxesia", "restrict_type":"song_id", "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -410,7 +407,7 @@
           {
             "position":91, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -423,7 +420,7 @@
           {
             "position":94, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -442,7 +439,7 @@
           {
             "position":98, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -455,7 +452,7 @@
           {
             "position":101, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -468,7 +465,7 @@
           {
             "position":104, "__v":0, "capture":10, "restrict_id":"auxesia", "restrict_type":"song_id", "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -481,7 +478,7 @@
           {
             "position":107, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -494,7 +491,7 @@
           {
             "position":110, "__v":0, "capture":15, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -507,14 +504,361 @@
             ],
             "plus_stamina_value":2, "items":[
               {
-                "id":183, "type":"fragment"
+                "type":"fragment", "amount":183
               }
             ]
           },
           {
-            "position":113, "__v":0, "capture":0, "items":[
+            "position":113, "__v":0, "capture":20, "items":[
               {
                 "id":"17", "type":"character"
+              }
+            ]
+          },
+          {
+            "position":114, "__v":0, "capture":72, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":115, "__v":0, "capture":5, "restrict_id":"auxesia", "restrict_type":"song_id"
+          },
+          {
+            "position":116, "__v":0, "capture":15, "items":[
+              {
+                "type":"fragment", "amount":30
+              }
+            ]
+          },
+          {
+            "position":117, "__v":0, "capture":6, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":118, "__v":0, "capture":14, "items":[
+              {
+                "type":"fragment", "amount":30
+              }
+            ]
+          },
+          {
+            "position":119, "__v":0, "capture":7, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":120, "__v":0, "capture":13, "items":[
+              {
+                "type":"fragment", "amount":30
+              }
+            ]
+          },
+          {
+            "position":121, "__v":0, "capture":8, "restrict_id":"auxesia", "restrict_type":"song_id"
+          },
+          {
+            "position":122, "__v":0, "capture":12
+          },
+          {
+            "position":123, "__v":0, "capture":9, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
+          },
+          {
+            "position":124, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":125, "__v":0, "capture":11, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":126, "__v":0, "capture":10, "items":[
+              {
+                "type":"fragment", "amount":35
+              }
+            ]
+          },
+          {
+            "position":127, "__v":0, "capture":11, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":128, "__v":0, "capture":9, "items":[
+              {
+                "type":"fragment", "amount":35
+              }
+            ]
+          },
+          {
+            "position":129, "__v":0, "capture":12, "restrict_id":"auxesia", "restrict_type":"song_id"
+          },
+          {
+            "position":130, "__v":0, "capture":8, "items":[
+              {
+                "type":"fragment", "amount":35
+              }
+            ]
+          },
+          {
+            "position":131, "__v":0, "capture":13, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":132, "__v":0, "capture":7
+          },
+          {
+            "position":133, "__v":0, "capture":14, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
+          },
+          {
+            "position":134, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":135, "__v":0, "capture":6, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":136, "__v":0, "capture":15, "items":[
+              {
+                "type":"fragment", "amount":40
+              }
+            ]
+          },
+          {
+            "position":137, "__v":0, "capture":5, "restrict_id":"auxesia", "restrict_type":"song_id"
+          },
+          {
+            "position":138, "__v":0, "capture":14, "items":[
+              {
+                "type":"fragment", "amount":40
+              }
+            ]
+          },
+          {
+            "position":139, "__v":0, "capture":6, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":140, "__v":0, "capture":13, "items":[
+              {
+                "type":"fragment", "amount":40
+              }
+            ]
+          },
+          {
+            "position":141, "__v":0, "capture":7, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":142, "__v":0, "capture":12
+          },
+          {
+            "position":143, "__v":0, "capture":8, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
+          },
+          {
+            "position":144, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":145, "__v":0, "capture":11, "restrict_id":"auxesia", "restrict_type":"song_id"
+          },
+          {
+            "position":146, "__v":0, "capture":9, "items":[
+              {
+                "type":"fragment", "amount":45
+              }
+            ]
+          },
+          {
+            "position":147, "__v":0, "capture":10, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":148, "__v":0, "capture":9, "items":[
+              {
+                "type":"fragment", "amount":45
+              }
+            ]
+          },
+          {
+            "position":149, "__v":0, "capture":11, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":150, "__v":0, "capture":8, "items":[
+              {
+                "type":"fragment", "amount":45
+              }
+            ]
+          },
+          {
+            "position":151, "__v":0, "capture":12, "restrict_id":"auxesia", "restrict_type":"song_id"
+          },
+          {
+            "position":152, "__v":0, "capture":7
+          },
+          {
+            "position":153, "__v":0, "capture":13, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
+          },
+          {
+            "position":154, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":155, "__v":0, "capture":6, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":156, "__v":0, "capture":14, "items":[
+              {
+                "type":"fragment", "amount":50
+              }
+            ]
+          },
+          {
+            "position":157, "__v":0, "capture":5, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":158, "__v":0, "capture":15, "items":[
+              {
+                "type":"fragment", "amount":50
+              }
+            ]
+          },
+          {
+            "position":159, "__v":0, "capture":6, "restrict_id":"auxesia", "restrict_type":"song_id"
+          },
+          {
+            "position":160, "__v":0, "capture":14, "items":[
+              {
+                "type":"fragment", "amount":50
+              }
+            ]
+          },
+          {
+            "position":161, "__v":0, "capture":7, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":162, "__v":0, "capture":13
+          },
+          {
+            "position":163, "__v":0, "capture":8, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
+          },
+          {
+            "position":164, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":165, "__v":0, "capture":12, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":166, "__v":0, "capture":9, "items":[
+              {
+                "type":"fragment", "amount":55
+              }
+            ]
+          },
+          {
+            "position":167, "__v":0, "capture":11, "restrict_id":"auxesia", "restrict_type":"song_id"
+          },
+          {
+            "position":168, "__v":0, "capture":10, "items":[
+              {
+                "type":"fragment", "amount":55
+              }
+            ]
+          },
+          {
+            "position":169, "__v":0, "capture":11, "step_type":[
+              "speedlimit"
+            ],
+            "speed_limit_value":20
+          },
+          {
+            "position":170, "__v":0, "capture":9, "items":[
+              {
+                "type":"fragment", "amount":55
+              }
+            ]
+          },
+          {
+            "position":171, "__v":0, "capture":12, "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":172, "__v":0, "capture":8
+          },
+          {
+            "position":173, "__v":0, "capture":13, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
+              }
+            ]
+          },
+          {
+            "position":174, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":175, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":1
               }
             ]
           }
