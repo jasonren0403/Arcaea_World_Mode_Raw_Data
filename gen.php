@@ -32,6 +32,7 @@ $map = array(
   '4-2'=>'Light IV',
   '4-3'=>'Conflict V',
   '4-4'=>'CHUNITHM',
+  '4-5'=>'Festival',
 );
 // previous charas not filled
 $charater = [
@@ -50,6 +51,7 @@ $charater = [
   'Nono', // 27
   'MTA-XXX', // 28
   'MDA-21', // 29
+  'Kanae', // 30
 ];
 $charater_cn = [
   0,1,2,3,4,5,'对立（Axium）','对立（Grievous Lady）',8,'光&菲希卡','依莉丝','爱托','露娜',12,'光（Zero）','光（Fracture）',
@@ -67,6 +69,7 @@ $charater_cn = [
   '诺诺', // 27
   'MTA-XXX', // 28
   'MDA-21', // 29
+  '群愿', // 30
 ];
 $core=0;
 // two files from unpacked game
@@ -74,7 +77,7 @@ $songlist = json_decode(file_get_contents('songlist'), true);
 $packlist = json_decode(file_get_contents('packlist'), true);
 $songs = []; $packs = []; $packs_cn = [];
 foreach ($songlist['songs'] as &$song) {
-  $songs[$song['id']] = $song['title_localized']['en'];
+  $songs[$song['id']] = str_replace(['[',']'],['【','】'],$song['title_localized']['en']);
 }
 foreach ($packlist['packs'] as &$pack) {
   $packs[$pack['id']] = $pack['name_localized']['en'];
