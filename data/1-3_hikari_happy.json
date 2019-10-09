@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"hikari_happy", "maps":[
       {
-        "map_id":"hikari_happy", "chapter":1, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"250,150", "step_count":126, "stamina_cost":1, "custom_bg":"", "is_available":true, "is_legacy":true, "curr_position":125, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"hikari_happy", "chapter":1, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"250,150", "step_count":136, "stamina_cost":1, "custom_bg":"", "is_legacy":true, "curr_position":125, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":8
           },
@@ -487,9 +487,46 @@
             "position":124, "__v":0, "capture":10, "restrict_id":"goodtek", "restrict_type":"song_id"
           },
           {
-            "position":125, "__v":0, "capture":0, "items":[
+            "position":125, "__v":0, "capture":25, "items":[
               {
                 "id":"dreaminattraction", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":126, "__v":0, "capture":25
+          },
+          {
+            "position":127, "__v":0, "capture":25
+          },
+          {
+            "position":128, "__v":0, "capture":25
+          },
+          {
+            "position":129, "__v":0, "capture":25
+          },
+          {
+            "position":130, "__v":0, "capture":25, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":4
+          },
+          {
+            "position":131, "__v":0, "capture":25, "restrict_id":"harutopia", "restrict_type":"song_id"
+          },
+          {
+            "position":132, "__v":0, "capture":25, "restrict_id":"harutopia", "restrict_type":"song_id"
+          },
+          {
+            "position":133, "__v":0, "capture":25, "restrict_id":"harutopia", "restrict_type":"song_id"
+          },
+          {
+            "position":134, "__v":0, "capture":25, "restrict_id":"harutopia", "restrict_type":"song_id"
+          },
+          {
+            "position":135, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_hollow", "amount":5
               }
             ]
           }

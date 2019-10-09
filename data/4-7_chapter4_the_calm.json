@@ -1,0 +1,531 @@
+{
+  "success":true, "value":{
+    "user_id":324036, "current_map":"chapter4_the_calm", "maps":[
+      {
+        "map_id":"chapter4_the_calm", "is_legacy":false, "chapter":4, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"-380,-30", "step_count":95, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":10
+          },
+          {
+            "position":1, "__v":0, "capture":10, "items":[
+              {
+                "type":"fragment", "amount":10
+              }
+            ]
+          },
+          {
+            "position":2, "__v":0, "capture":10, "items":[
+              {
+                "type":"fragment", "amount":10
+              }
+            ]
+          },
+          {
+            "position":3, "__v":0, "capture":10, "items":[
+              {
+                "type":"fragment", "amount":10
+              }
+            ]
+          },
+          {
+            "position":4, "__v":0, "capture":10, "items":[
+              {
+                "type":"fragment", "amount":10
+              }
+            ]
+          },
+          {
+            "position":5, "__v":0, "capture":10
+          },
+          {
+            "position":6, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":7, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":8, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":9, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":10, "__v":0, "capture":11
+          },
+          {
+            "position":11, "__v":0, "capture":11, "items":[
+              {
+                "type":"fragment", "amount":15
+              }
+            ]
+          },
+          {
+            "position":12, "__v":0, "capture":11, "items":[
+              {
+                "type":"fragment", "amount":15
+              }
+            ]
+          },
+          {
+            "position":13, "__v":0, "capture":11, "items":[
+              {
+                "type":"fragment", "amount":15
+              }
+            ]
+          },
+          {
+            "position":14, "__v":0, "capture":11, "items":[
+              {
+                "type":"fragment", "amount":15
+              }
+            ]
+          },
+          {
+            "position":15, "__v":0, "capture":11
+          },
+          {
+            "position":16, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":17, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":18, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":19, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":20, "__v":0, "capture":12
+          },
+          {
+            "position":21, "__v":0, "capture":12, "items":[
+              {
+                "type":"fragment", "amount":20
+              }
+            ]
+          },
+          {
+            "position":22, "__v":0, "capture":12, "items":[
+              {
+                "type":"fragment", "amount":20
+              }
+            ]
+          },
+          {
+            "position":23, "__v":0, "capture":12, "items":[
+              {
+                "type":"fragment", "amount":20
+              }
+            ]
+          },
+          {
+            "position":24, "__v":0, "capture":12, "items":[
+              {
+                "type":"fragment", "amount":20
+              }
+            ]
+          },
+          {
+            "position":25, "__v":0, "capture":12
+          },
+          {
+            "position":26, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":27, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":28, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":29, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":30, "__v":0, "capture":13
+          },
+          {
+            "position":31, "__v":0, "capture":13, "items":[
+              {
+                "type":"fragment", "amount":25
+              }
+            ]
+          },
+          {
+            "position":32, "__v":0, "capture":13, "items":[
+              {
+                "type":"fragment", "amount":25
+              }
+            ]
+          },
+          {
+            "position":33, "__v":0, "capture":13, "items":[
+              {
+                "type":"fragment", "amount":25
+              }
+            ]
+          },
+          {
+            "position":34, "__v":0, "capture":13, "items":[
+              {
+                "type":"fragment", "amount":25
+              }
+            ]
+          },
+          {
+            "position":35, "__v":0, "capture":13
+          },
+          {
+            "position":36, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":37, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":38, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":39, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":40, "__v":0, "capture":14
+          },
+          {
+            "position":41, "__v":0, "capture":14, "items":[
+              {
+                "type":"fragment", "amount":30
+              }
+            ]
+          },
+          {
+            "position":42, "__v":0, "capture":14, "items":[
+              {
+                "type":"fragment", "amount":30
+              }
+            ]
+          },
+          {
+            "position":43, "__v":0, "capture":14, "items":[
+              {
+                "type":"fragment", "amount":30
+              }
+            ]
+          },
+          {
+            "position":44, "__v":0, "capture":14, "items":[
+              {
+                "type":"fragment", "amount":30
+              }
+            ]
+          },
+          {
+            "position":45, "__v":0, "capture":14
+          },
+          {
+            "position":46, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":47, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":48, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":49, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":50, "__v":0, "capture":15
+          },
+          {
+            "position":51, "__v":0, "capture":15, "items":[
+              {
+                "type":"fragment", "amount":35
+              }
+            ]
+          },
+          {
+            "position":52, "__v":0, "capture":15, "items":[
+              {
+                "type":"fragment", "amount":35
+              }
+            ]
+          },
+          {
+            "position":53, "__v":0, "capture":15, "items":[
+              {
+                "type":"fragment", "amount":35
+              }
+            ]
+          },
+          {
+            "position":54, "__v":0, "capture":15, "items":[
+              {
+                "id":"diode", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":55, "__v":0, "capture":15
+          },
+          {
+            "position":56, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":57, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":58, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":59, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":60, "__v":0, "capture":16
+          },
+          {
+            "position":61, "__v":0, "capture":16, "restrict_id":"diode", "restrict_type":"song_id"
+          },
+          {
+            "position":62, "__v":0, "capture":16, "items":[
+              {
+                "type":"fragment", "amount":40
+              }
+            ]
+          },
+          {
+            "position":63, "__v":0, "capture":16, "restrict_id":"diode", "restrict_type":"song_id"
+          },
+          {
+            "position":64, "__v":0, "capture":16, "items":[
+              {
+                "type":"fragment", "amount":40
+              }
+            ]
+          },
+          {
+            "position":65, "__v":0, "capture":16
+          },
+          {
+            "position":66, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":67, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":68, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":69, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":70, "__v":0, "capture":17
+          },
+          {
+            "position":71, "__v":0, "capture":17, "restrict_id":"diode", "restrict_type":"song_id"
+          },
+          {
+            "position":72, "__v":0, "capture":17, "items":[
+              {
+                "type":"fragment", "amount":45
+              }
+            ]
+          },
+          {
+            "position":73, "__v":0, "capture":17, "restrict_id":"diode", "restrict_type":"song_id"
+          },
+          {
+            "position":74, "__v":0, "capture":17, "items":[
+              {
+                "type":"fragment", "amount":45
+              }
+            ]
+          },
+          {
+            "position":75, "__v":0, "capture":17
+          },
+          {
+            "position":76, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":77, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":78, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":79, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":80, "__v":0, "capture":18
+          },
+          {
+            "position":81, "__v":0, "capture":18, "restrict_id":"diode", "restrict_type":"song_id"
+          },
+          {
+            "position":82, "__v":0, "capture":18, "items":[
+              {
+                "type":"fragment", "amount":50
+              }
+            ]
+          },
+          {
+            "position":83, "__v":0, "capture":18, "restrict_id":"diode", "restrict_type":"song_id"
+          },
+          {
+            "position":84, "__v":0, "capture":18, "items":[
+              {
+                "type":"fragment", "amount":50
+              }
+            ]
+          },
+          {
+            "position":85, "__v":0, "capture":18
+          },
+          {
+            "position":86, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":87, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":88, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":89, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":90, "__v":0, "capture":19
+          },
+          {
+            "position":91, "__v":0, "capture":19, "restrict_id":"diode", "restrict_type":"song_id"
+          },
+          {
+            "position":92, "__v":0, "capture":19, "items":[
+              {
+                "type":"fragment", "amount":55
+              }
+            ]
+          },
+          {
+            "position":93, "__v":0, "capture":19, "restrict_id":"diode", "restrict_type":"song_id"
+          },
+          {
+            "position":94, "__v":0, "capture":0, "items":[
+              {
+                "id":"freefall", "type":"world_song"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

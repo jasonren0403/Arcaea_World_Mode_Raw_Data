@@ -33,6 +33,8 @@ $map = array(
   '4-3'=>'Conflict V',
   '4-4'=>'CHUNITHM',
   '4-5'=>'Festival',
+  '4-6'=>'Glory:Road',
+  '4-7'=>'Diode/FREEF4LL',
 );
 // previous charas not filled
 $charater = [
@@ -113,6 +115,7 @@ foreach (glob('*-*.json') as $file) {
     'hollow' => 0,
     'desolate' => 0,
     'chunithm' => 0,
+    'crimson' => 0,
     'item' => []
   ];
   $i=0;
@@ -218,6 +221,11 @@ foreach (glob('*-*.json') as $file) {
               $reward_cn[] = 'CHUNITHM 核心 &times; '.$tile['items'][0]['amount'];
               $total['chunithm']+=$tile['items'][0]['amount']; break;
             }
+            case 'core_crimson': {
+              $reward[] = 'Crimson Core &times; '.$tile['items'][0]['amount'];
+              $reward_cn[] = '深红核心 &times; '.$tile['items'][0]['amount'];
+              $total['crimson']+=$tile['items'][0]['amount']; break;
+            }
             default: {print_r($tile['items']);exit;}
           }
           break;
@@ -242,12 +250,14 @@ foreach (glob('*-*.json') as $file) {
   if ($total['hollow']) $total_reward[] = $total['hollow'].' Hollow Core'.($total['hollow']>1?'s':'');
   if ($total['desolate']) $total_reward[] = $total['desolate'].' Desolate Core'.($total['desolate']>1?'s':'');
   if ($total['chunithm']) $total_reward[] = $total['chunithm'].' CHUNITHM Core'.($total['chunithm']>1?'s':'');
+  if ($total['crimson']) $total_reward[] = $total['crimson'].' Crimson Core'.($total['crimson']>1?'s':'');
   $total_reward_cn = [$total['frag'].' 残片'];
   if (count($total['item'])) $total_reward_cn[] = implode('<br />', $total['item']);
   if ($total['ether']) $total_reward_cn[] = $total['ether'].' 以太之滴';
   if ($total['hollow']) $total_reward_cn[] = $total['hollow'].' 中空核心';
   if ($total['desolate']) $total_reward_cn[] = $total['desolate'].' 荒芜核心';
   if ($total['chunithm']) $total_reward_cn[] = $total['chunithm'].' CHUNITHM 核心';
+  if ($total['crimson']) $total_reward_cn[] = $total['crimson'].' 深红核心';
   fwrite($f, '|-
 | Total || \'\'\''.$total['step'].'\'\'\' || \'\'\'-\'\'\' || \'\'\''.implode(', ', $total_reward).'\'\'\'
 |}

@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"extra_originals", "maps":[
       {
-        "map_id":"extra_originals", "chapter":2, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"", "coordinate":"460,-160", "step_count":96, "stamina_cost":2, "custom_bg":"", "require_value":1, "is_available":true, "is_legacy":false, "curr_position":95, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"extra_originals", "chapter":2, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"", "coordinate":"460,-160", "step_count":101, "stamina_cost":2, "custom_bg":"", "require_value":1, "is_legacy":false, "curr_position":95, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":2
           },
@@ -381,9 +381,38 @@
             ]
           },
           {
-            "position":95, "__v":0, "capture":0, "items":[
+            "position":95, "__v":0, "capture":8, "items":[
               {
                 "id":"cyberneciacatharsis", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":96, "__v":0, "capture":400
+          },
+          {
+            "position":97, "__v":0, "capture":2, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":6
+          },
+          {
+            "position":98, "__v":0, "capture":450, "items":[
+              {
+                "type":"core", "id":"core_crimson", "amount":5
+              }
+            ]
+          },
+          {
+            "position":99, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":6
+          },
+          {
+            "position":100, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_crimson", "amount":5
               }
             ]
           }

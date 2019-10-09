@@ -1,0 +1,135 @@
+{
+  "success":true, "value":{
+    "user_id":324036, "current_map":"gloryroad", "maps":[
+      {
+        "map_id":"gloryroad", "is_legacy":false, "chapter":4, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"shiawase", "require_type":"pack", "coordinate":"380,30", "step_count":28, "custom_bg":"", "stamina_cost":2, "curr_position":3, "curr_capture":4.7483482942887427, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":20, "restrict_id":"nirvluce", "restrict_type":"song_id"
+          },
+          {
+            "position":1, "__v":0, "capture":21, "items":[
+              {
+                "type":"fragment", "amount":100
+              }
+            ]
+          },
+          {
+            "position":2, "__v":0, "capture":20
+          },
+          {
+            "position":3, "__v":0, "capture":20
+          },
+          {
+            "position":4, "__v":0, "capture":21, "items":[
+              {
+                "type":"fragment", "amount":100
+              }
+            ]
+          },
+          {
+            "position":5, "__v":0, "capture":20
+          },
+          {
+            "position":6, "__v":0, "capture":21, "restrict_id":"shiawase", "restrict_type":"pack_id"
+          },
+          {
+            "position":7, "__v":0, "capture":20
+          },
+          {
+            "position":8, "__v":0, "capture":20
+          },
+          {
+            "position":9, "__v":0, "capture":21, "restrict_id":"shiawase", "restrict_type":"pack_id"
+          },
+          {
+            "position":10, "__v":0, "capture":20
+          },
+          {
+            "position":11, "__v":0, "capture":21, "items":[
+              {
+                "type":"fragment", "amount":100
+              }
+            ]
+          },
+          {
+            "position":12, "__v":0, "capture":20
+          },
+          {
+            "position":13, "__v":0, "capture":20
+          },
+          {
+            "position":14, "__v":0, "capture":21, "items":[
+              {
+                "type":"fragment", "amount":100
+              }
+            ]
+          },
+          {
+            "position":15, "__v":0, "capture":20
+          },
+          {
+            "position":16, "__v":0, "capture":21, "restrict_id":"shiawase", "restrict_type":"pack_id"
+          },
+          {
+            "position":17, "__v":0, "capture":20
+          },
+          {
+            "position":18, "__v":0, "capture":20
+          },
+          {
+            "position":19, "__v":0, "capture":21, "restrict_id":"shiawase", "restrict_type":"pack_id"
+          },
+          {
+            "position":20, "__v":0, "capture":20, "items":[
+              {
+                "id":"gloryroad", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":21, "__v":0, "capture":250
+          },
+          {
+            "position":22, "__v":0, "capture":10, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":23, "__v":0, "capture":300, "items":[
+              {
+                "type":"core", "id":"core_crimson", "amount":5
+              }
+            ]
+          },
+          {
+            "position":24, "__v":0, "capture":5, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":4
+          },
+          {
+            "position":25, "__v":0, "capture":350, "items":[
+              {
+                "type":"core", "id":"core_crimson", "amount":5
+              }
+            ]
+          },
+          {
+            "position":26, "__v":0, "capture":2, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":6
+          },
+          {
+            "position":27, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_crimson", "amount":5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
