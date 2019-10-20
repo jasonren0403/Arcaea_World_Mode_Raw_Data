@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"phantasia_event", "maps":[
       {
-        "map_id":"phantasia_event", "is_legacy":false, "chapter":0, "is_available":true, "available_from":1543449600000, "available_to":1544108400000, "is_repeatable":false, "require_id":"phantasia", "require_type":"single", "coordinate":"-350,0", "step_count":66, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"phantasia_event", "is_legacy":false, "chapter":0, "available_from":1571529600000, "available_to":1572188400000, "is_repeatable":false, "require_id":"phantasia", "require_type":"single", "coordinate":"-350,0", "step_count":86, "custom_bg":"", "stamina_cost":2, "curr_position":65, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":10, "restrict_id":"phantasia", "restrict_type":"song_id"
           },
@@ -27,7 +27,7 @@
           {
             "position":6, "__v":0, "capture":6, "items":[
               {
-                "id":100, "type":"fragment"
+                "type":"fragment", "amount":100
               }
             ]
           },
@@ -61,7 +61,7 @@
           {
             "position":16, "__v":0, "capture":14, "items":[
               {
-                "id":200, "type":"fragment"
+                "type":"fragment", "amount":200
               }
             ]
           },
@@ -83,7 +83,7 @@
           {
             "position":21, "__v":0, "capture":11, "items":[
               {
-                "id":300, "type":"fragment"
+                "type":"fragment", "amount":300
               }
             ]
           },
@@ -117,7 +117,7 @@
           {
             "position":31, "__v":0, "capture":19, "items":[
               {
-                "id":400, "type":"fragment"
+                "type":"fragment", "amount":400
               }
             ]
           },
@@ -139,7 +139,7 @@
           {
             "position":36, "__v":0, "capture":16, "items":[
               {
-                "id":500, "type":"fragment"
+                "type":"fragment", "amount":500
               }
             ]
           },
@@ -176,7 +176,7 @@
           {
             "position":46, "__v":0, "capture":24, "items":[
               {
-                "id":600, "type":"fragment"
+                "type":"fragment", "amount":600
               }
             ]
           },
@@ -198,7 +198,7 @@
           {
             "position":51, "__v":0, "capture":21, "items":[
               {
-                "id":700, "type":"fragment"
+                "type":"fragment", "amount":700
               }
             ]
           },
@@ -254,9 +254,114 @@
             "plus_stamina_value":2
           },
           {
-            "position":65, "__v":0, "capture":0, "items":[
+            "position":65, "__v":0, "capture":2, "items":[
               {
                 "id":"19", "type":"character"
+              }
+            ]
+          },
+          {
+            "position":66, "__v":0, "capture":26
+          },
+          {
+            "position":67, "__v":0, "capture":27, "items":[
+              {
+                "type":"fragment", "amount":200
+              }
+            ]
+          },
+          {
+            "position":68, "__v":0, "capture":28, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
+              }
+            ]
+          },
+          {
+            "position":69, "__v":0, "capture":29, "restrict_id":"phantasia", "restrict_type":"song_id"
+          },
+          {
+            "position":70, "__v":0, "capture":2, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":71, "__v":0, "capture":29
+          },
+          {
+            "position":72, "__v":0, "capture":30, "items":[
+              {
+                "type":"fragment", "amount":200
+              }
+            ]
+          },
+          {
+            "position":73, "__v":0, "capture":31, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
+              }
+            ]
+          },
+          {
+            "position":74, "__v":0, "capture":32, "restrict_id":"phantasia", "restrict_type":"song_id"
+          },
+          {
+            "position":75, "__v":0, "capture":2, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":76, "__v":0, "capture":33
+          },
+          {
+            "position":77, "__v":0, "capture":34, "items":[
+              {
+                "type":"fragment", "amount":200
+              }
+            ]
+          },
+          {
+            "position":78, "__v":0, "capture":35, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
+              }
+            ]
+          },
+          {
+            "position":79, "__v":0, "capture":36, "restrict_id":"phantasia", "restrict_type":"song_id"
+          },
+          {
+            "position":80, "__v":0, "capture":2, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":81, "__v":0, "capture":36
+          },
+          {
+            "position":82, "__v":0, "capture":37, "items":[
+              {
+                "type":"fragment", "amount":200
+              }
+            ]
+          },
+          {
+            "position":83, "__v":0, "capture":38, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
+              }
+            ]
+          },
+          {
+            "position":84, "__v":0, "capture":39, "restrict_id":"phantasia", "restrict_type":"song_id"
+          },
+          {
+            "position":85, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
               }
             ]
           }
