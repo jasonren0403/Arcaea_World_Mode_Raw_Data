@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"chapter4_the_calm", "maps":[
       {
-        "map_id":"chapter4_the_calm", "is_legacy":false, "chapter":4, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"-380,-30", "step_count":95, "custom_bg":"", "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"chapter4_the_calm", "is_legacy":false, "chapter":4, "available_from":-1, "available_to":2106124800000, "is_repeatable":false, "require_id":"", "require_type":"fragment", "require_value":200, "coordinate":"-380,-30", "step_count":146, "custom_bg":"", "stamina_cost":2, "curr_position":94, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":10
           },
@@ -518,9 +518,258 @@
             "position":93, "__v":0, "capture":19, "restrict_id":"diode", "restrict_type":"song_id"
           },
           {
-            "position":94, "__v":0, "capture":0, "items":[
+            "position":94, "__v":0, "capture":19, "items":[
               {
                 "id":"freefall", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":95, "__v":0, "capture":19
+          },
+          {
+            "position":96, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":97, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":98, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":99, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":100, "__v":0, "capture":20
+          },
+          {
+            "position":101, "__v":0, "capture":20, "restrict_id":"freefall", "restrict_type":"song_id"
+          },
+          {
+            "position":102, "__v":0, "capture":20, "items":[
+              {
+                "type":"fragment", "amount":60
+              }
+            ]
+          },
+          {
+            "position":103, "__v":0, "capture":20, "restrict_id":"freefall", "restrict_type":"song_id"
+          },
+          {
+            "position":104, "__v":0, "capture":20, "items":[
+              {
+                "type":"fragment", "amount":60
+              }
+            ]
+          },
+          {
+            "position":105, "__v":0, "capture":20
+          },
+          {
+            "position":106, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":107, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":108, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":109, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":110, "__v":0, "capture":21
+          },
+          {
+            "position":111, "__v":0, "capture":21, "restrict_id":"freefall", "restrict_type":"song_id"
+          },
+          {
+            "position":112, "__v":0, "capture":21, "items":[
+              {
+                "type":"fragment", "amount":65
+              }
+            ]
+          },
+          {
+            "position":113, "__v":0, "capture":21, "restrict_id":"freefall", "restrict_type":"song_id"
+          },
+          {
+            "position":114, "__v":0, "capture":21, "items":[
+              {
+                "type":"fragment", "amount":65
+              }
+            ]
+          },
+          {
+            "position":115, "__v":0, "capture":21
+          },
+          {
+            "position":116, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":117, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":118, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":119, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":120, "__v":0, "capture":22
+          },
+          {
+            "position":121, "__v":0, "capture":22, "restrict_id":"freefall", "restrict_type":"song_id"
+          },
+          {
+            "position":122, "__v":0, "capture":22, "items":[
+              {
+                "type":"fragment", "amount":70
+              }
+            ]
+          },
+          {
+            "position":123, "__v":0, "capture":22, "restrict_id":"freefall", "restrict_type":"song_id"
+          },
+          {
+            "position":124, "__v":0, "capture":22, "items":[
+              {
+                "type":"fragment", "amount":70
+              }
+            ]
+          },
+          {
+            "position":125, "__v":0, "capture":22
+          },
+          {
+            "position":126, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":127, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":128, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":129, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":130, "__v":0, "capture":23
+          },
+          {
+            "position":131, "__v":0, "capture":23, "restrict_id":"freefall", "restrict_type":"song_id"
+          },
+          {
+            "position":132, "__v":0, "capture":23, "items":[
+              {
+                "type":"fragment", "amount":75
+              }
+            ]
+          },
+          {
+            "position":133, "__v":0, "capture":23, "restrict_id":"freefall", "restrict_type":"song_id"
+          },
+          {
+            "position":134, "__v":0, "capture":23, "items":[
+              {
+                "id":"monochromeprincess", "type":"world_song"
+              }
+            ]
+          },
+          {
+            "position":135, "__v":0, "capture":23
+          },
+          {
+            "position":136, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":137, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":138, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":139, "__v":0, "capture":1, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":140, "__v":0, "capture":24
+          },
+          {
+            "position":141, "__v":0, "capture":24, "restrict_id":"diode", "restrict_type":"song_id"
+          },
+          {
+            "position":142, "__v":0, "capture":24, "restrict_id":"freefall", "restrict_type":"song_id"
+          },
+          {
+            "position":143, "__v":0, "capture":24, "restrict_id":"monochromeprincess", "restrict_type":"song_id"
+          },
+          {
+            "position":144, "__v":0, "capture":24
+          },
+          {
+            "position":145, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":3
               }
             ]
           }
