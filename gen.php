@@ -54,6 +54,8 @@ $charater = [
   'MTA-XXX', // 28
   'MDA-21', // 29
   'Kanae', // 30
+  '','',
+  'Sia', // 33
 ];
 $charater_cn = [
   0,1,2,3,4,5,'对立（Axium）','对立（Grievous Lady）',8,'光&菲希卡','依莉丝','爱托','露娜',12,'光（Zero）','光（Fracture）',
@@ -72,6 +74,8 @@ $charater_cn = [
   'MTA-XXX', // 28
   'MDA-21', // 29
   '群愿', // 30
+  '','',
+  '兮娅', // 33
 ];
 $core=0;
 // two files from unpacked game
