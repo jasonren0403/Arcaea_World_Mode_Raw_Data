@@ -1,0 +1,467 @@
+{
+  "success":true, "value":{
+    "user_id":324036, "current_map":"metallicpunisher_event", "maps":[
+      {
+        "map_id":"metallicpunisher_event", "chapter":0, "available_from":1577059200000, "available_to":1577718000000, "is_repeatable":false, "require_id":"metallicpunisher", "require_type":"single", "coordinate":"-400,-75", "step_count":111, "stamina_cost":2, "custom_bg":"", "is_legacy":false, "curr_position":87, "curr_capture":0, "is_locked":false, "steps":[
+          {
+            "position":0, "__v":0, "capture":27
+          },
+          {
+            "position":1, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":2, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":3, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":4, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":5, "__v":0, "capture":28, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":6, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":7, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":8, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":9, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":10, "__v":0, "capture":29, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":11, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":12, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":13, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":14, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":15, "__v":0, "capture":30, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":16, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":17, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":18, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":19, "__v":0, "capture":1, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":20, "__v":0, "capture":31, "items":[
+              {
+                "type":"fragment", "amount":500
+              }
+            ]
+          },
+          {
+            "position":21, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":22, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":23, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":24, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":25, "__v":0, "capture":32, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":26, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":27, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":28, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":29, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":30, "__v":0, "capture":33, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":31, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":32, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":33, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":34, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":35, "__v":0, "capture":34, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":36, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":37, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":38, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":39, "__v":0, "capture":2, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":40, "__v":0, "capture":35, "items":[
+              {
+                "type":"fragment", "amount":500
+              }
+            ]
+          },
+          {
+            "position":41, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":42, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":43, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":44, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":45, "__v":0, "capture":36, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":46, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":47, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":48, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":49, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":50, "__v":0, "capture":37, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":51, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":52, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":53, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":54, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":55, "__v":0, "capture":38, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":56, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":57, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":58, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":59, "__v":0, "capture":3, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":60, "__v":0, "capture":39, "items":[
+              {
+                "type":"fragment", "amount":500
+              }
+            ]
+          },
+          {
+            "position":61, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":62, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":63, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":64, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":65, "__v":0, "capture":40, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":66, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":67, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":68, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":69, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":70, "__v":0, "capture":41, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":71, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":72, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":73, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":74, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":75, "__v":0, "capture":42, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":76, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":77, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":78, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":79, "__v":0, "capture":4, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":80, "__v":0, "capture":43, "items":[
+              {
+                "type":"fragment", "amount":500
+              }
+            ]
+          },
+          {
+            "position":81, "__v":0, "capture":5, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":82, "__v":0, "capture":5, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":83, "__v":0, "capture":5, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":84, "__v":0, "capture":50, "restrict_id":"metallicpunisher", "restrict_type":"song_id"
+          },
+          {
+            "position":85, "__v":0, "capture":1, "items":[
+              {
+                "type":"fragment", "amount":500
+              }
+            ]
+          },
+          {
+            "position":86, "__v":0, "capture":44
+          },
+          {
+            "position":87, "__v":0, "capture":5, "items":[
+              {
+                "id":"10", "type":"character"
+              }
+            ]
+          },
+          {
+            "position":88, "__v":0, "capture":5
+          },
+          {
+            "position":89, "__v":0, "capture":5
+          },
+          {
+            "position":90, "__v":0, "capture":45, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":91, "__v":0, "capture":5, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":92, "__v":0, "capture":5, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":93, "__v":0, "capture":5, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":94, "__v":0, "capture":5, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":95, "__v":0, "capture":46, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":96, "__v":0, "capture":5, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":97, "__v":0, "capture":5, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":98, "__v":0, "capture":5, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":99, "__v":0, "capture":5, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":100, "__v":0, "capture":47, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":101, "__v":0, "capture":6, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":102, "__v":0, "capture":6, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":103, "__v":0, "capture":6, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":104, "__v":0, "capture":6, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":105, "__v":0, "capture":48, "items":[
+              {
+                "type":"fragment", "amount":1
+              }
+            ]
+          },
+          {
+            "position":106, "__v":0, "capture":6, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":107, "__v":0, "capture":6, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":108, "__v":0, "capture":6, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":109, "__v":0, "capture":6, "restrict_id":"single", "restrict_type":"pack_id", "step_type":[
+              "randomsong"
+            ]
+          },
+          {
+            "position":110, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

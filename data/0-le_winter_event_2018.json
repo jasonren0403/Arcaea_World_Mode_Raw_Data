@@ -2,7 +2,7 @@
   "success":true, "value":{
     "user_id":324036, "current_map":"winter_event_2018", "maps":[
       {
-        "map_id":"winter_event_2018", "is_legacy":false, "chapter":0, "is_available":true, "custom_bg":"winter", "available_from":1545523200000, "available_to":1546268400000, "is_repeatable":false, "require_id":"empireofwinter", "require_type":"single", "coordinate":"-350,120", "step_count":56, "stamina_cost":2, "curr_position":0, "curr_capture":0, "is_locked":false, "steps":[
+        "map_id":"winter_event_2018", "is_legacy":false, "chapter":0, "custom_bg":"winter", "available_from":1577059200000, "available_to":1577718000000, "is_repeatable":false, "require_id":"empireofwinter", "require_type":"single", "coordinate":"-250,-150", "step_count":81, "stamina_cost":2, "curr_position":55, "curr_capture":0, "is_locked":false, "steps":[
           {
             "position":0, "__v":0, "capture":10, "restrict_id":"empireofwinter", "restrict_type":"song_id"
           },
@@ -341,9 +341,164 @@
             "plus_stamina_value":2
           },
           {
-            "position":55, "__v":0, "capture":0, "items":[
+            "position":55, "__v":0, "capture":21, "items":[
               {
                 "id":"20", "type":"character"
+              }
+            ]
+          },
+          {
+            "position":56, "__v":0, "capture":21, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":57, "__v":0, "capture":21, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":58, "__v":0, "capture":21, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":59, "__v":0, "capture":21, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":60, "__v":0, "capture":22, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
+              }
+            ]
+          },
+          {
+            "position":61, "__v":0, "capture":22, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":62, "__v":0, "capture":22, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":63, "__v":0, "capture":22, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":64, "__v":0, "capture":22, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":65, "__v":0, "capture":23, "items":[
+              {
+                "type":"fragment", "amount":550
+              }
+            ]
+          },
+          {
+            "position":66, "__v":0, "capture":23, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":67, "__v":0, "capture":23, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":68, "__v":0, "capture":23, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":69, "__v":0, "capture":23, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":70, "__v":0, "capture":24, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
+              }
+            ]
+          },
+          {
+            "position":71, "__v":0, "capture":24, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":72, "__v":0, "capture":24, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":73, "__v":0, "capture":24, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":74, "__v":0, "capture":24, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":75, "__v":0, "capture":25, "items":[
+              {
+                "type":"fragment", "amount":600
+              }
+            ]
+          },
+          {
+            "position":76, "__v":0, "capture":25, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":77, "__v":0, "capture":25, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":78, "__v":0, "capture":25, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":79, "__v":0, "capture":25, "step_type":[
+              "plusstamina"
+            ],
+            "plus_stamina_value":2
+          },
+          {
+            "position":80, "__v":0, "capture":0, "items":[
+              {
+                "type":"core", "id":"core_generic", "amount":2
               }
             ]
           }
