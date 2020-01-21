@@ -38,7 +38,7 @@ $map = array(
 );
 // previous charas not filled
 $charater = [
-  0,1,2,3,4,5,'Tairitsu (Axium)','Tairitsu (Grievous Lady)',8,'Hikari & Fisica','Ilith','Eto','Luna',12,'Hikari (Zero)','Hikari (Fracture)',
+  0,1,2,3,4,5,'Tairitsu (Axium)','Tairitsu (Grievous Lady)',8,'Hikari & Fisica','Ilith','Eto','Luna',13,'Hikari (Zero)','Hikari (Fracture)',
   'Hikari (Summer)',
   'Tairitsu (Summer)',
   'Tairitsu & Trin',
@@ -56,9 +56,10 @@ $charater = [
   'Kanae', // 30
   '','',
   'Sia', // 33
+  'DORO*C', //34
 ];
 $charater_cn = [
-  0,1,2,3,4,5,'对立（Axium）','对立（Grievous Lady）',8,'光&菲希卡','依莉丝','爱托','露娜',12,'光（Zero）','光（Fracture）',
+  0,1,2,3,4,5,'对立（Axium）','对立（Grievous Lady）',8,'光&菲希卡','依莉丝','爱托','露娜',13,'光（Zero）','光（Fracture）',
   '光（Summer）',
   '对立（Summer）',
   '对立 & 托凛',
@@ -76,6 +77,7 @@ $charater_cn = [
   '群愿', // 30
   '','',
   '兮娅', // 33
+  'DORO*C', //
 ];
 $core=0;
 // two files from unpacked game
@@ -90,6 +92,8 @@ foreach ($packlist['packs'] as &$pack) {
   $packs_cn[$pack['id']] = $pack['name_localized']['en'];
   if (isset($pack['custom_banner']) && $pack['id'] != 'base') $packs_cn[$pack['id']] .= ' Collaboration';
 }
+$packs['single'] = 'Memory Archive';
+$packs_cn['single'] = 'Memory Archive';
 
 chdir(__DIR__);
 chdir('data');
